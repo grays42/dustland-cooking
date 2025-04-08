@@ -1,0 +1,433 @@
+{
+  "hunger": {
+    "base": 0,
+    "ingredients": {
+      "Salt": 6,
+      "Water": 6,
+      "Vegetables": 25,
+      "Fish": 50,
+      "Venison": 40,
+      "Agaric": 36,
+      "Morel": 36,
+      "Shrimp": 40,
+      "Squab": 32,
+      "Chicken": 105,
+      "Bread": 40,
+      "Rations": 100,
+      "Liquor": 80,
+      "Fruit": 25,
+      "Medicinal Herbs": 15,
+      "Milk": 70,
+      "Canned Fruit": 70,
+      "Crab": 50,
+      "Rabbit": 40,
+      "Pheasant": 32,
+      "Button Mushroom": 25,
+      "Oyster Mushroom": 25,
+      "Scallop": 40,
+      "Prawn": 50,
+      "Cheese": 100,
+      "Ham": 100,
+      "Dried Vegetables": 80,
+      "Seasoning": 0,
+      "Spices": 0,
+      "Eggs": 70,
+      "Sugar": 5
+    }
+  },
+  "stress": {
+    "base": -4,
+    "ingredients": {
+      "Salt": 20,
+      "Water": 5,
+      "Vegetables": 12,
+      "Fish": 7,
+      "Venison": 7,
+      "Agaric": 4,
+      "Morel": 4,
+      "Shrimp": 4,
+      "Squab": 4,
+      "Chicken": 12,
+      "Bread": 24,
+      "Rations": 4,
+      "Liquor": 44,
+      "Fruit": 12,
+      "Medicinal Herbs": 31,
+      "Milk": 20,
+      "Canned Fruit": 25,
+      "Crab": 7,
+      "Rabbit": 7,
+      "Pheasant": 4,
+      "Button Mushroom": 4,
+      "Oyster Mushroom": 4,
+      "Scallop": 4,
+      "Prawn": 7,
+      "Cheese": 43,
+      "Ham": 35,
+      "Dried Vegetables": 28,
+      "Seasoning": 55,
+      "Spices": 36,
+      "Eggs": 20,
+      "Sugar": 19
+    }
+  },
+  "sell_value": {
+    "base": -12,
+    "ingredients": {
+      "Salt": 63,
+      "Water": 18,
+      "Vegetables": 48,
+      "Fish": 46,
+      "Venison": 41,
+      "Agaric": 30,
+      "Morel": 30,
+      "Shrimp": 32,
+      "Squab": 28,
+      "Chicken": 89,
+      "Bread": 91,
+      "Rations": 62,
+      "Liquor": 172,
+      "Fruit": 48,
+      "Medicinal Herbs": 100,
+      "Milk": 95,
+      "Canned Fruit": 110,
+      "Crab": 46,
+      "Rabbit": 41,
+      "Pheasant": 28,
+      "Button Mushroom": 25,
+      "Oyster Mushroom": 24,
+      "Scallop": 32,
+      "Prawn": 46,
+      "Cheese": 179,
+      "Ham": 155,
+      "Dried Vegetables": 124,
+      "Seasoning": 164,
+      "Spices": 109,
+      "Eggs": 95,
+      "Sugar": 58,
+      "Flour": 54
+    }
+  },
+  "base_value": {
+    "Vegetables": 25,
+    "Chicken": 64,
+    "Milk": 64,
+    "Salt": 28,
+    "Bread": 50,
+    "Rabbit": 25,
+    "Quail": 25,
+    "Shrimp": 20,
+    "Squab": 16,
+    "Scallop": 20,
+    "Venison": 25,
+    "Flour": 25,
+    "Eggs": 64,
+    "Rations": 50,
+    "Water": 10,
+    "Pork": 64,
+    "Sugar": 25
+  },
+  "valid_ingredients": [
+    "Water",
+    "Rations",
+    "Liquor",
+    "Coffee",
+    "Fruit",
+    "Vegetables",
+    "Spices",
+    "Medicinal Herbs",
+    "Honey",
+    "Eggs",
+    "Milk",
+    "Pork",
+    "Flour",
+    "Sugar",
+    "Salt",
+    "Dried Vegetables",
+    "Canned Fruit",
+    "Beer",
+    "Tea",
+    "Fruit Wine",
+    "Seasoning",
+    "Cheese",
+    "Ham",
+    "Crab",
+    "Prawn",
+    "Fish",
+    "Venison",
+    "Agaric",
+    "Morel",
+    "Scallop",
+    "Shrimp",
+    "Squab",
+    "Pheasant",
+    "Button Mushroom",
+    "Oyster Mushroom",
+    "Threadfin",
+    "Scorpion",
+    "Salamander",
+    "Salt Pork",
+    "Rabbit",
+    "Quail",
+    "Millipede",
+    "Matsutake",
+    "Infected Meat",
+    "Human Meat",
+    "Crystal Prawn",
+    "Chicken",
+    "Cave Snake",
+    "Bread",
+    "Blind Tetra",
+    "Beetle",
+    "Bat",
+    "Bacon"
+  ],
+  "categories": {
+    "BaseSalt": [
+      "Spices",
+      "Salt",
+      "Seasoning"
+    ],
+    "BaseSweet": [
+      "Honey",
+      "Sugar"
+    ],
+    "Wine": [
+      "Beer",
+      "Fruit Wine",
+      "Liquor"
+    ],
+    "BaseFruit": [
+      "Fruit",
+      "Canned Fruit"
+    ],
+    "BaseVegetables": [
+      "Vegetables",
+      "Dried Vegetables"
+    ],
+    "Meat": [
+      "Chicken",
+      "Pork",
+      "Salt Pork",
+      "Ham"
+    ],
+    "BaseMilk": [
+      "Milk",
+      "Cheese"
+    ],
+    "Seafood": [
+      "Crab",
+      "Prawn",
+      "Fish",
+      "Shrimp",
+      "Scallop",
+      "Blind Tetra",
+      "Crystal Prawn",
+      "Threadfin"
+    ],
+    "Game": [
+      "Rabbit",
+      "Venison",
+      "Quail",
+      "Squab",
+      "Pheasant",
+      "Cave Snake",
+      "Bat",
+      "Salamander"
+    ],
+    "Mushroom": [
+      "Agaric",
+      "Morel",
+      "Matsutake",
+      "Button Mushroom",
+      "Oyster Mushroom"
+    ],
+    "HumanMeat": [
+      "Human Meat",
+      "Infected Meat"
+    ],
+    "Insects": [
+      "Scorpion",
+      "Millipede",
+      "Beetle"
+    ],
+    "RareSeafood": [],
+    "RegularSeafood": [],
+    "CaveSeafood": [],
+    "LandGame": [],
+    "CaveGame": [],
+    "RareMushroom": []
+  },
+  "ingredient_stats": {
+    "Rations": {
+      "hunger": 100,
+      "stress": 4,
+      "sell_value": 62
+    },
+    "Sugar": {
+      "hunger": 5,
+      "stress": 19,
+      "sell_value": 60
+    },
+    "Honey": {
+      "hunger": 80,
+      "stress": 60,
+      "sell_value": 220
+    },
+    "Canned Fruit": {
+      "hunger": 70,
+      "stress": 29,
+      "sell_value": 122
+    },
+    "Water": {
+      "hunger": 6,
+      "stress": 5,
+      "sell_value": 18
+    },
+    "Liquor": {
+      "hunger": 80,
+      "stress": 44,
+      "sell_value": 172
+    },
+    "Coffee": {
+      "hunger": 100,
+      "stress": 40,
+      "sell_value": 170
+    },
+    "Fruit": {
+      "hunger": 25,
+      "stress": 12,
+      "sell_value": 49
+    },
+    "Vegetables": {
+      "hunger": 25,
+      "stress": 12,
+      "sell_value": 48
+    },
+    "Tea": {
+      "hunger": 15,
+      "stress": 20,
+      "sell_value": 68
+    },
+    "Beer": {
+      "hunger": 80,
+      "stress": 84,
+      "sell_value": 292
+    },
+    "Eggs": {
+      "hunger": 70,
+      "stress": 20,
+      "sell_value": 95
+    },
+    "Flour": {
+      "hunger": 20,
+      "stress": 14,
+      "sell_value": 52
+    },
+    "Fruit Wine": {
+      "hunger": 80,
+      "stress": 84,
+      "sell_value": 292
+    },
+    "Seasoning": {
+      "hunger": 0,
+      "stress": 59,
+      "sell_value": 177
+    },
+    "Agaric": {
+      "hunger": 36,
+      "stress": 4,
+      "sell_value": 30
+    },
+    "Spices": {
+      "hunger": 0,
+      "stress": 36,
+      "sell_value": 108
+    },
+    "Medicinal Herbs": {
+      "hunger": 15,
+      "stress": 31,
+      "sell_value": 101
+    },
+    "Milk": {
+      "hunger": 70,
+      "stress": 20,
+      "sell_value": 95
+    },
+    "Pork": {
+      "hunger": 80,
+      "stress": 20,
+      "sell_value": 100
+    },
+    "Salt": {
+      "hunger": 6,
+      "stress": 20,
+      "sell_value": 63
+    },
+    "Ham": {
+      "hunger": 100,
+      "stress": 39,
+      "sell_value": 167
+    },
+    "Dried Vegetables": {
+      "hunger": 80,
+      "stress": 28,
+      "sell_value": 124
+    },
+    "Crab": {
+      "hunger": 50,
+      "stress": 7,
+      "sell_value": 46
+    },
+    "Prawn": {
+      "hunger": 50,
+      "stress": 7,
+      "sell_value": 46
+    },
+    "Fish": {
+      "hunger": 50,
+      "stress": 7,
+      "sell_value": 46
+    },
+    "Venison": {
+      "hunger": 40,
+      "stress": 7,
+      "sell_value": 41
+    },
+    "Morel": {
+      "hunger": 36,
+      "stress": 4,
+      "sell_value": 30
+    },
+    "Scallop": {
+      "hunger": 40,
+      "stress": 4,
+      "sell_value": 32
+    },
+    "Button Mushroom": {
+      "hunger": 25,
+      "stress": 4,
+      "sell_value": 25
+    },
+    "Oyster Mushroom": {
+      "hunger": 25,
+      "stress": 4,
+      "sell_value": 25
+    },
+    "Shrimp": {
+      "hunger": 40,
+      "stress": 4,
+      "sell_value": 32
+    },
+    "Squab": {
+      "hunger": 32,
+      "stress": 4,
+      "sell_value": 28
+    },
+    "Pheasant": {
+      "hunger": 32,
+      "stress": 4,
+      "sell_value": 28
+    }
+  }
+}

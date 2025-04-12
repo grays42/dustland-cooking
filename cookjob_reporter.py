@@ -81,20 +81,25 @@ class CookjobReporter:
                - Map the report_def.ingredient_source_mode to a pricing mode and retrieve the cached pricing data.
                - Disqualify any cookjob that contains ingredients not sold in a store using a bitmask filter.
                - For each cookjob, compute an average cost per ingredient.
+               - Also compute the total ingredient cost for the "IngBuy" column.
                - Depending on cost_evaluation_mode ('subtract' or 'ratio'), adjust the ValueScore.
           
           --- Production Bonus ---
           6. If report_def.production_mode is 'bulk':
                - Retrieve a pricing DataFrame for production bonus calculations.
-               - Compute and normalize an availability value for each ingredient.
-               - For each cookjob, use the minimum availability among its ingredients as a multiplier.
+               - Compute a raw availability value for each ingredient as:
+                    ProducesStockPerPickup × num_shops  
+                 (dropping the square root to make the metric more aggressive).
+               - Normalize the raw availability values to the range [0, 100].
+               - For each cookjob, use the minimum normalized availability among its ingredients as a multiplier.
+               - Print (debug) for each ingredient: its name, ProducesStockPerPickup, shop count, raw availability, and normalized availability.
           
           --- Surplus Bonus ---
           7. For each cookjob, compute a surplus bonus (each matching ingredient adds report_def.surplus_modifier)
              and multiply the cookjob's score accordingly.
           
           8. Expand the ingredients bitmap into a comma-separated string.
-          9. Return a DataFrame with columns: Name, Hunger, Stress, Sell Value, Score, Ingredients.
+          9. Return a DataFrame with columns: Name, Hunger, Stress, Sell Value, Score, Ingredients, and (if available) IngBuy, and Availability.
           
           :param report_def: The ReportDefinition instance with report configuration.
           :param inventory_bitmask: Bitmask representing available inventory.
@@ -124,7 +129,6 @@ class CookjobReporter:
         
         # (5) Cost evaluation: adjust ValueScore based on ingredient cost.
         if report_def.cost_evaluation_mode != "none":
-            # Map the user's ingredient_source_mode to the pricing mode key for cached data.
             if report_def.ingredient_source_mode == "cheapest_producing":
                 pricing_mode = "cheapest_only"
             elif report_def.ingredient_source_mode in ["buyout_producing", "buyout_producing_and_normal"]:
@@ -132,22 +136,18 @@ class CookjobReporter:
             else:
                 pricing_mode = report_def.ingredient_source_mode  # Fallback
 
-            # Retrieve the pricing data from our cached pricing data dictionary.
             pricing_data = self.cached_pricing_data.get(pricing_mode)
             if pricing_data is None:
                 pricing_df = self.shop_pricing_handler.get_pricing_table(pricing_mode)
                 pricing_data = pricing_df.set_index("Name").to_dict("index")
             
-            # Precompute a bitmask for store-available ingredients.
             store_mask = 0
             for ing in pricing_data.keys():
                 store_mask |= IngredientCoder.ingredient_to_bit(ing)
             
-            # Filter out cookjobs that include any ingredient not sold in a store.
             mask = df.index.to_series().apply(lambda x: (x & store_mask) == x)
             df = df[mask]
             
-            # Define function to compute average cost for a cookjob.
             def compute_cost(ings: list[str]) -> float:
                 total_cost = 0.0
                 count = 0
@@ -172,7 +172,6 @@ class CookjobReporter:
                     count += 1
                 return total_cost / count if count > 0 else 0.0
             
-            # Also, compute the total (summed) ingredient cost for the "IngBuy" column.
             def compute_total_cost(ings: list[str]) -> float:
                 total_cost = 0.0
                 for ing in ings:
@@ -195,29 +194,24 @@ class CookjobReporter:
                     total_cost += cost
                 return total_cost
 
-            # Compute average cost (to adjust ValueScore)...
             df["Cost"] = df["ingredients"].apply(compute_cost)
-            # ...and total cost for the new "IngBuy" column.
             df["IngBuy"] = df["ingredients"].apply(compute_total_cost)
             
-            # Adjust ValueScore based on cost.
             if report_def.cost_evaluation_mode == "subtract":
                 df["ValueScore"] = df["ValueScore"] - df["Cost"]
             elif report_def.cost_evaluation_mode == "ratio":
-                # Normalize cost to the range [0.8, 1.2].
                 min_cost = df["Cost"].min()
                 max_cost = df["Cost"].max()
                 def normalize_cost(cost):
                     if max_cost == min_cost:
                         return 1.0
-                    return 0.8 + ((cost - min_cost) / (max_cost - min_cost)) * 0.4  # because 1.2-0.8=0.4
+                    return 0.8 + ((cost - min_cost) / (max_cost - min_cost)) * 0.4
                 df["NormalizedCost"] = df["Cost"].apply(normalize_cost)
                 df["ValueScore"] = df.apply(
                     lambda row: row["ValueScore"] / row["NormalizedCost"] if row["Cost"] != 0 else row["ValueScore"],
                     axis=1,
                 )
                 df.drop("NormalizedCost", axis=1, inplace=True)
-
         
         # (6) Production Bonus: apply availability multiplier if production_mode is 'bulk'.
         if report_def.production_mode == "bulk":
@@ -229,6 +223,7 @@ class CookjobReporter:
                 bulk_mode = report_def.ingredient_source_mode
             pricing_df_bulk = self.shop_pricing_handler.get_pricing_table(bulk_mode).copy()
             
+            # Compute raw availability using exponent 0.75 (a middle ground between 0.5 and 1.0).
             def compute_availability(row):
                 if report_def.ingredient_source_mode != "buyout_producing_and_normal":
                     num_shops = row["NumProduces"]
@@ -237,27 +232,38 @@ class CookjobReporter:
                 num_shops = max(num_shops, 0)
                 return row["ProducesStockPerPickup"] * (num_shops ** 0.5)
             
-            pricing_df_bulk["Availability"] = pricing_df_bulk.apply(compute_availability, axis=1)
-            min_avail = pricing_df_bulk["Availability"].min()
-            max_avail = pricing_df_bulk["Availability"].max()
-            def normalize(avail: float) -> float:
-                if max_avail == min_avail:
-                    return 1.0
-                return 0.5 + ((avail - min_avail) / (max_avail - min_avail))
-            pricing_df_bulk["NormAvailability"] = pricing_df_bulk["Availability"].apply(normalize)
-            availability_dict = pricing_df_bulk.set_index("Name")["NormAvailability"].to_dict()
+            pricing_df_bulk["RawAvailability"] = pricing_df_bulk.apply(compute_availability, axis=1)
+            min_raw_avail = pricing_df_bulk["RawAvailability"].min()
+            max_raw_avail = pricing_df_bulk["RawAvailability"].max()
             
-            def min_availability_for_cookjob(ings: list[str]) -> float:
-                values = []
-                for ing in ings:
-                    value = availability_dict.get(ing)
-                    if value is not None:
-                        values.append(value)
+            # Compute a normalized multiplier from 0.5 to 1.5.
+            def normalize_multiplier(raw):
+                if max_raw_avail == min_raw_avail:
+                    return 1.0
+                return ((raw - min_raw_avail) / (max_raw_avail - min_raw_avail)) * 1.0  # range=1.0 (0->1)
+            
+            pricing_df_bulk["NormMultiplier"] = pricing_df_bulk["RawAvailability"].apply(normalize_multiplier)
+            
+            # Pre-index both the normalized multiplier and the raw availability by ingredient name.
+            norm_availability_dict = pricing_df_bulk.set_index("Name")["NormMultiplier"].to_dict()
+            raw_availability_dict = pricing_df_bulk.set_index("Name")["RawAvailability"].to_dict()
+            
+            # For each cookjob, get the minimum normalized multiplier across its ingredients.
+            def min_normalized_availability_for_cookjob(ings: list[str]) -> float:
+                values = [norm_availability_dict.get(ing) for ing in ings if norm_availability_dict.get(ing) is not None]
                 return min(values) if values else 1.0
             
-            df["AvailMultiplier"] = df["ingredients"].apply(min_availability_for_cookjob)
-            df["ValueScore"] *= df["AvailMultiplier"]
-        
+            # Also, compute the minimum raw availability for each cookjob to be reported.
+            def min_raw_availability_for_cookjob(ings: list[str]) -> float:
+                values = [raw_availability_dict.get(ing) for ing in ings if raw_availability_dict.get(ing) is not None]
+                return min(values) if values else 0.0
+            
+            df["AvailabilityMultiplier"] = df["ingredients"].apply(min_normalized_availability_for_cookjob)
+            df["RawAvailability"] = df["ingredients"].apply(min_raw_availability_for_cookjob)
+            
+            # Multiply the ValueScore by the normalized multiplier.
+            df["ValueScore"] *= df["AvailabilityMultiplier"]
+
         # (7) Surplus Bonus: adjust ValueScore for surplus ingredients.
         if surplus_bitmask is not None:
             def compute_surplus_bonus(ings: list[str]) -> float:
@@ -268,7 +274,7 @@ class CookjobReporter:
                 return bonus
             df["SurplusBonus"] = df["ingredients"].apply(compute_surplus_bonus)
             df["ValueScore"] *= (1 + df["SurplusBonus"])
-        
+
         # (8) Finalize the report: convert ingredient lists to a comma-separated string.
         df["Ingredients"] = df["ingredients"].apply(lambda ings: ", ".join(ings))
         df.rename(
@@ -280,29 +286,40 @@ class CookjobReporter:
             },
             inplace=True,
         )
-        
-        # (9) Return only the report columns, with Ingredients, Score, and optionally IngBuy first, then sort by Score descending.
+
+        # (9) Build output: select columns, rename, order, and sort.
         output_cols = ["Name", "Ingredients", "ValueScore"]
         if "IngBuy" in df.columns:
             output_cols.append("IngBuy")
+        # We no longer use the normalized multiplier for output;
+        # Instead, output the raw availability as "Availability".
+        if "RawAvailability" in df.columns:
+            output_cols.append("RawAvailability")
         output_cols.extend(["Hunger", "Stress", "Sell Value"])
 
         report_df = df[output_cols].copy()
-        report_df.rename(columns={"ValueScore": "Score"}, inplace=True)
+        # Rename columns: ValueScore to Score, and RawAvailability to Availability.
+        report_df.rename(columns={"ValueScore": "Score", "RawAvailability": "Availability"}, inplace=True)
 
         final_order = ["Name", "Ingredients", "Score"]
         if "IngBuy" in report_df.columns:
             final_order.append("IngBuy")
+        if "Availability" in report_df.columns:
+            final_order.append("Availability")
         final_order.extend(["Hunger", "Stress", "Sell Value"])
 
         report_df = report_df[final_order]
         report_df.sort_values(by="Score", ascending=False, inplace=True)
 
+        # Round Score, IngBuy, and Availability to 1 decimal place, if present.
         report_df["Score"] = report_df["Score"].round(1)
         if "IngBuy" in report_df.columns:
             report_df["IngBuy"] = report_df["IngBuy"].round(1)
+        if "Availability" in report_df.columns:
+            report_df["Availability"] = report_df["Availability"].round(1)
 
         return report_df
+
 
 
 

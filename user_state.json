@@ -30,14 +30,7 @@
     "Venison",
     "Water"
   ],
-  "surplus": [
-    "Bread",
-    "Fruit",
-    "Milk",
-    "Rations",
-    "Sugar",
-    "Tea"
-  ],
+  "surplus": [],
   "settings": {},
   "selected_reports": [
     "mid_late_game_road_food",

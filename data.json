@@ -1,132 +1,4 @@
 {
-  "hunger": {
-    "base": 0,
-    "ingredients": {
-      "Salt": 6,
-      "Water": 6,
-      "Vegetables": 25,
-      "Fish": 50,
-      "Venison": 40,
-      "Agaric": 36,
-      "Morel": 36,
-      "Shrimp": 40,
-      "Squab": 32,
-      "Chicken": 105,
-      "Bread": 40,
-      "Rations": 100,
-      "Liquor": 80,
-      "Fruit": 25,
-      "Medicinal Herbs": 15,
-      "Milk": 70,
-      "Canned Fruit": 70,
-      "Crab": 50,
-      "Rabbit": 40,
-      "Pheasant": 32,
-      "Button Mushroom": 25,
-      "Oyster Mushroom": 25,
-      "Scallop": 40,
-      "Prawn": 50,
-      "Cheese": 100,
-      "Ham": 100,
-      "Dried Vegetables": 80,
-      "Seasoning": 0,
-      "Spices": 0,
-      "Eggs": 70,
-      "Sugar": 5
-    }
-  },
-  "stress": {
-    "base": -4,
-    "ingredients": {
-      "Salt": 20,
-      "Water": 5,
-      "Vegetables": 12,
-      "Fish": 7,
-      "Venison": 7,
-      "Agaric": 4,
-      "Morel": 4,
-      "Shrimp": 4,
-      "Squab": 4,
-      "Chicken": 12,
-      "Bread": 24,
-      "Rations": 4,
-      "Liquor": 44,
-      "Fruit": 12,
-      "Medicinal Herbs": 31,
-      "Milk": 20,
-      "Canned Fruit": 25,
-      "Crab": 7,
-      "Rabbit": 7,
-      "Pheasant": 4,
-      "Button Mushroom": 4,
-      "Oyster Mushroom": 4,
-      "Scallop": 4,
-      "Prawn": 7,
-      "Cheese": 43,
-      "Ham": 35,
-      "Dried Vegetables": 28,
-      "Seasoning": 55,
-      "Spices": 36,
-      "Eggs": 20,
-      "Sugar": 19
-    }
-  },
-  "sell_value": {
-    "base": -12,
-    "ingredients": {
-      "Salt": 63,
-      "Water": 18,
-      "Vegetables": 48,
-      "Fish": 46,
-      "Venison": 41,
-      "Agaric": 30,
-      "Morel": 30,
-      "Shrimp": 32,
-      "Squab": 28,
-      "Chicken": 89,
-      "Bread": 91,
-      "Rations": 62,
-      "Liquor": 172,
-      "Fruit": 48,
-      "Medicinal Herbs": 100,
-      "Milk": 95,
-      "Canned Fruit": 110,
-      "Crab": 46,
-      "Rabbit": 41,
-      "Pheasant": 28,
-      "Button Mushroom": 25,
-      "Oyster Mushroom": 24,
-      "Scallop": 32,
-      "Prawn": 46,
-      "Cheese": 179,
-      "Ham": 155,
-      "Dried Vegetables": 124,
-      "Seasoning": 164,
-      "Spices": 109,
-      "Eggs": 95,
-      "Sugar": 58,
-      "Flour": 54
-    }
-  },
-  "base_value": {
-    "Vegetables": 25,
-    "Chicken": 64,
-    "Milk": 64,
-    "Salt": 28,
-    "Bread": 50,
-    "Rabbit": 25,
-    "Quail": 25,
-    "Shrimp": 20,
-    "Squab": 16,
-    "Scallop": 20,
-    "Venison": 25,
-    "Flour": 25,
-    "Eggs": 64,
-    "Rations": 50,
-    "Water": 10,
-    "Pork": 64,
-    "Sugar": 25
-  },
   "valid_ingredients": [
     "Water",
     "Rations",
@@ -137,6 +9,7 @@
     "Spices",
     "Medicinal Herbs",
     "Honey",
+    "Chicken",
     "Eggs",
     "Milk",
     "Pork",
@@ -144,9 +17,11 @@
     "Sugar",
     "Salt",
     "Dried Vegetables",
+    "Salt Pork",
     "Canned Fruit",
     "Beer",
     "Tea",
+    "Bread",
     "Fruit Wine",
     "Seasoning",
     "Cheese",
@@ -154,78 +29,74 @@
     "Crab",
     "Prawn",
     "Fish",
+    "Rabbit",
     "Venison",
+    "Quail",
     "Agaric",
     "Morel",
+    "Matsutake",
     "Scallop",
     "Shrimp",
     "Squab",
     "Pheasant",
     "Button Mushroom",
     "Oyster Mushroom",
+    "Human Flesh",
+    "Infected Meat",
     "Threadfin",
     "Scorpion",
     "Salamander",
-    "Salt Pork",
-    "Rabbit",
-    "Quail",
     "Millipede",
-    "Matsutake",
-    "Infected Meat",
-    "Human Meat",
-    "Crystal Prawn",
-    "Chicken",
+    "Crystal Shrimp",
     "Cave Snake",
-    "Bread",
     "Blind Tetra",
     "Beetle",
-    "Bat",
-    "Bacon"
+    "Bat"
   ],
   "categories": {
-    "BaseSalt": [
+    "CategorySalt": [
       "Spices",
       "Salt",
       "Seasoning"
     ],
-    "BaseSweet": [
+    "CategorySweets": [
       "Honey",
       "Sugar"
     ],
-    "Wine": [
+    "CategoryWine": [
       "Beer",
       "Fruit Wine",
       "Liquor"
     ],
-    "BaseFruit": [
+    "CategoryFruit": [
       "Fruit",
       "Canned Fruit"
     ],
-    "BaseVegetables": [
+    "CategoryVegetables": [
       "Vegetables",
       "Dried Vegetables"
     ],
-    "Meat": [
+    "CategoryMeat": [
       "Chicken",
       "Pork",
       "Salt Pork",
       "Ham"
     ],
-    "BaseMilk": [
+    "CategoryMilk": [
       "Milk",
       "Cheese"
     ],
-    "Seafood": [
+    "CategorySeafood": [
       "Crab",
       "Prawn",
       "Fish",
       "Shrimp",
       "Scallop",
       "Blind Tetra",
-      "Crystal Prawn",
+      "Crystal Shrimp",
       "Threadfin"
     ],
-    "Game": [
+    "CategoryGame": [
       "Rabbit",
       "Venison",
       "Quail",
@@ -235,28 +106,30 @@
       "Bat",
       "Salamander"
     ],
-    "Mushroom": [
+    "CategoryEgg": [
+      "Eggs"
+    ],
+    "CategoryMushroom": [
       "Agaric",
       "Morel",
       "Matsutake",
       "Button Mushroom",
       "Oyster Mushroom"
     ],
-    "HumanMeat": [
-      "Human Meat",
+    "CategoryHumanMeat": [
+      "Human Flesh",
       "Infected Meat"
     ],
-    "Insects": [
+    "CategoryInsects": [
       "Scorpion",
       "Millipede",
       "Beetle"
     ],
-    "RareSeafood": [],
-    "RegularSeafood": [],
-    "CaveSeafood": [],
-    "LandGame": [],
-    "CaveGame": [],
-    "RareMushroom": []
+    "CategoryPrawn": [],
+    "CategoryCaveSeafood": [],
+    "CategorySurfaceSeafood": [],
+    "CategoryCaveGame": [],
+    "CategoryCaveMushroom": []
   },
   "ingredient_stats": {
     "Rations": {
@@ -428,6 +301,170 @@
       "hunger": 32,
       "stress": 4,
       "sell_value": 28
+    },
+    "Salt Pork": {
+      "hunger": 60,
+      "stress": 18,
+      "sell_value": 84
+    },
+    "Bread": {
+      "hunger": 40,
+      "stress": 24,
+      "sell_value": 92
+    },
+    "Cheese": {
+      "hunger": 100,
+      "stress": 39,
+      "sell_value": 167
+    },
+    "Quail": {
+      "hunger": 40,
+      "stress": 7,
+      "sell_value": 41
+    },
+    "Chicken": {
+      "hunger": 105,
+      "stress": 12,
+      "sell_value": 89
+    },
+    "Rabbit": {
+      "hunger": 40,
+      "stress": 7,
+      "sell_value": 41
+    },
+    "Matsutake": {
+      "hunger": 36,
+      "stress": 4,
+      "sell_value": 30
+    },
+    "Human Flesh": {
+      "hunger": 100,
+      "stress": -66,
+      "sell_value": -10000
+    },
+    "Infected Meat": {
+      "hunger": 100,
+      "stress": -53,
+      "sell_value": -10000
+    },
+    "Scorpion": {
+      "hunger": 15,
+      "stress": -128,
+      "sell_value": -10000
+    },
+    "Millipede": {
+      "hunger": 20,
+      "stress": -102,
+      "sell_value": -10000
+    },
+    "Blind Tetra": {
+      "hunger": 30,
+      "stress": 4,
+      "sell_value": 27
+    },
+    "Crystal Shrimp": {
+      "hunger": 30,
+      "stress": 4,
+      "sell_value": 27
+    },
+    "Bat": {
+      "hunger": 32,
+      "stress": -54,
+      "sell_value": -10000
+    },
+    "Cave Snake": {
+      "hunger": 32,
+      "stress": -102,
+      "sell_value": -10000
     }
+  },
+  "settings_info": {
+    "speech_skill": {
+      "name": "Speech Skill",
+      "description": "Chance to receive a 10% discount when buying trade goods. Affects bulk buy profitability. (Integer value.)",
+      "default": 10,
+      "validation": "^[0-9]{1,2}$"
+    },
+    "cooking_skill": {
+      "name": "Cooking Skill",
+      "description": "Your highest character's Cooking skill level. Affects bulk buy profitability. (Integer value.)",
+      "default": 10,
+      "validation": "^[0-9]{1,2}$"
+    },
+    "scale_rarest_availability": {
+      "name": "Scale Rarest Ingredient's Availability",
+      "description": "If true, scales bulk buy report scores by how many shops carry the rarest ingredient by the square root of the\nnumber of shops, normalized to a multiplier of 0.5 to 1.5 against the cookjob's score. (Options are True or False.) ",
+      "default": true,
+      "validation": "^(True|False)$"
+    },
+    "scenario": {
+      "name": "Map Scenario",
+      "description": "Which region of Dustland Delivery are you currently playing? This affects shop availability data.\n(Options are Haggard Plains, Twilight Valley, or Sheol.)",
+      "default": "Haggard Plains",
+      "validation": "^(Haggard Plains|Twilight Valley|Sheol)$"
+    }
+  },
+"prebuilt_reports": {
+  "early_game_road_food": {
+    "name": "Early Game Road Food",
+    "inventory_only": false,
+    "hunger_weight": 1.0,
+    "stress_weight": 1.0,
+    "sell_weight": 0.0,
+    "cost_evaluation_mode": "ratio",
+    "ingredient_source_mode": "cheapest_producing",
+    "production_mode": "bulk"
+  },
+  "early_game_profit_food": {
+    "name": "Early Game Profit Food",
+    "inventory_only": false,
+    "hunger_weight": 0.0,
+    "stress_weight": 0.0,
+    "sell_weight": 1.0,
+    "cost_evaluation_mode": "subtract",
+    "ingredient_source_mode": "cheapest_producing",
+    "production_mode": "bulk"
+  },
+  "mid_late_game_road_food": {
+    "name": "Mid-Late Game Road Food",
+    "inventory_only": false,
+    "hunger_weight": 1.0,
+    "stress_weight": 1.0,
+    "sell_weight": 0.0,
+    "cost_evaluation_mode": "ratio",
+    "ingredient_source_mode": "buyout_producing",
+    "production_mode": "bulk"
+  },
+  "mid_late_game_profit_food": {
+    "name": "Mid-Late Game Profitable Food",
+    "inventory_only": false,
+    "hunger_weight": 0.0,
+    "stress_weight": 0.0,
+    "sell_weight": 1.0,
+    "cost_evaluation_mode": "subtract",
+    "ingredient_source_mode": "buyout_producing",
+    "production_mode": "bulk"
+  },
+  "best_road_food_inventory": {
+    "name": "Best Road Food from Inventory",
+    "inventory_only": true,
+    "hunger_weight": 1.0,
+    "stress_weight": 1.0,
+    "sell_weight": 0.0,
+    "cost_evaluation_mode": "none",
+    "ingredient_source_mode": null,
+    "production_mode": "individual"
+  },
+  "best_profit_food_inventory": {
+    "name": "Best Profitable Food from Inventory",
+    "inventory_only": true,
+    "hunger_weight": 0.0,
+    "stress_weight": 0.0,
+    "sell_weight": 1.0,
+    "cost_evaluation_mode": "none",
+    "ingredient_source_mode": null,
+    "production_mode": "individual"
   }
+}
+
 }

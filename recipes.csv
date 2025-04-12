@@ -1,446 +1,446 @@
-Recipe,Ingredient,Name,
-1050,Wine|Spices|BaseFruit|BaseSweet|Water?,Manhattan,5
-1049,Wine|Spices|BaseSweet?|Water?,Mint Julep,4
-1056,Crab|Wine|BaseSalt?|BaseVegetables?,Drunken Crab,4
-1121,RareSeafood|Wine|Water?|BaseVegetables?|BaseSalt?,Drunken Seafood,5
-1029,Bread|Cheese?|Eggs|BaseVegetables?|BaseSalt?,Egg Sandwich,5
-1030,Bread|Meat|BaseVegetables|Eggs|Cheese?|BaseSalt?,Cheeseburger,6
-1027,Meat|BaseVegetables|Flour|BaseSweet|BaseSalt,Ketchup Braised Meat,5
-1028,Meat|BaseFruit|Flour|BaseSweet|BaseSalt,Pineapple Meat Stir Fry,5
-1099,BaseMilk|Morel|BaseVegetables?|BaseSalt?|Water?,Cream of Morel Soup,5
-1105,Agaric|Meat|Flour|Salt,Meat Dumplings with Agarics,4
-1106,BaseMilk|Agaric|BaseVegetables?|BaseSalt?|Water?,Cream of Agaric Soup,5
-1113,BaseMilk|Matsutake|BaseVegetables?|BaseSalt?|Water?,Cream of Matsutake Soup,5
-1022,Meat|BaseVegetables|Eggs|Flour|BaseSalt?,Stuffed Flatbread,5
-1038,BaseVegetables|Eggs|Flour|BaseSweet?|BaseMilk,Stuffed Pumpkin,5
-1024,Meat|Flour|BaseSweet|BaseSalt,Sweet-and-Sour Meat,4
-1026,BaseVegetables|Flour|BaseSweet|BaseSalt,Stewed Eggplant,4
-1048,Coffee|BaseMilk|BaseSweet?|Water?,Cappuccino,4
-1017,BaseVegetables|Flour|BaseSalt|Water,Soup with Dumplings,4
-1057,Crab|Eggs?|Flour|BaseSalt?,Deep-Fried Crab,4
-1064,Prawn|Eggs?|Flour|BaseSalt?,Prawn Tempura,4
-1071,Fish|Eggs|Flour|BaseSalt?,Fried Fish Balls,4
-1078,Rabbit|Eggs|Flour|Salt,Rabbit Meatballs,4
-1085,Venison|Eggs|Flour|Salt,Venison Meatballs,4
-1092,Quail|Eggs|Flour|Salt,Quail Meatballs,4
-1152,Mushroom|BaseVegetables|BaseSalt|Water|Eggs,Mushroom and Egg Stir Fry,5
-1070,Fish|Sugar|Flour|Salt|BaseVegetables?,Braised Fish,5
-1077,Rabbit|Sugar|Flour|Salt|BaseVegetables?,Braised Rabbit,5
-1084,Venison|Sugar|Flour|Salt|BaseVegetables?,Braised Venison,5
-1091,Quail|Sugar|Flour|Salt|BaseVegetables?,Braised Quail,5
-1119,RareSeafood|Eggs?|Flour|BaseSalt?,Seafood Balls,4
-1131,LandGame|Eggs?|Flour|BaseSalt?,Game Meatballs,4
-1012,Meat|Eggs|BaseSalt|Water,Steamed Egg with Meat,4
-1041,BaseVegetables|Tea|BaseMilk|BaseSweet?|Water,Taro Milk Tea,5
-1122,Seafood|Flour|BaseSweet|BaseSalt|BaseVegetables?,Braised Seafood,5
-1130,Game|BaseSweet|Flour|BaseSalt|BaseVegetables?,Braised Game,5
-1015,Meat|Flour|BaseSalt,Braised Meat,3
-1020,Meat|Eggs|Flour|BaseSalt?,Empanadas,4
-1021,BaseVegetables|Eggs|Flour|BaseSalt?,Veggie Tempura,4
-1046,Medicinal Herbs|BaseMilk|BaseSweet?|Water,Medicinal Jelly,4
-1047,Medicinal Herbs|Tea|BaseSweet?|Water,Herbal Tea,4
-1006,Eggs|BaseSalt|Water,Egg-Drop Soup,3
-1037,Eggs|Flour|BaseSweet?|Cheese,Egg Tart,4
-1040,BaseFruit|Tea|BaseMilk|BaseSweet?|Water?,Jujube Milk Tea,5
-1063,Prawn|Eggs|Salt|Water,Steamed Egg with Prawns,4
-1075,Rabbit|Eggs|Salt|Water,Rabbit with Steamed Egg,4
-1082,Venison|Eggs|Salt|Water,Venison with Steamed Egg,4
-1089,Quail|Eggs|Salt|Water,Quail with Steamed Egg,4
-1023,Meat|BaseSweet|BaseSalt,Simmer-Fried Meat,3
-1025,BaseVegetables|BaseSweet|BaseSalt,Candied Lotus Root,3
-1031,BaseFruit|Salt|BaseSweet,Candied Fruit,3
-1033,BaseFruit|BaseSweet|BaseMilk,Stewed Fruit,3
-1098,Morel|Meat|Flour|Salt,Meat Dumplings with Morels,4
-1112,Matsutake|Meat|Flour|Salt,Meat Dumplings with Matsutake,4
-1139,Mushroom|Meat|Flour|BaseSalt,Meat Dumplings with Mushrooms,4
-1008,BaseVegetables|Meat|BaseSalt?|Water,Meat-and-Veg Stew,4
-1043,BaseFruit|BaseVegetables|Tea|BaseSweet?|Water,Mixed Tea,5
-1118,Seafood|Eggs|BaseSalt|Water,Steamed Egg with Seafood,4
-1128,Game|Eggs|BaseSalt|Water|BaseVegetables?,Game with Steamed Egg,5
-1137,Mushroom|Eggs|BaseSalt|Water,Mushrooms with Steamed Egg,4
-1054,Crab|Eggs|Salt|Water?,Steamed Egg with Crab,4
-1062,Prawn|Eggs|Salt,Prawn Omelet,3
-1074,Rabbit|Eggs|Salt,Rabbit Omelet,3
-1081,Venison|Eggs|Salt,Venison Omelet,3
-1088,Quail|Eggs|Salt,Quail Omelet,3
-1016,BaseVegetables|Flour|BaseSalt,Scallion Pancake,3
-1053,Crab|Sugar|BaseSalt?,Simmer-Fried Crab,3
-1061,Prawn|Sugar|BaseSalt?,Simmer-Fried Prawns,3
-1069,Fish|Sugar|BaseSalt?|BaseVegetables?,Simmer-Fried Fish,4
-1073,Rabbit|Sugar|BaseSalt?|BaseVegetables?,Simmer-Fried Rabbit,4
-1080,Venison|Sugar|BaseSalt?|BaseVegetables?,Simmer-Fried Venison,4
-1087,Quail|Sugar|BaseSalt?|BaseVegetables?,Simmer-Fried Quail,4
-1002,Meat|BaseSalt|Water,Meat Broth,3
-1010,BaseVegetables|Eggs|BaseSalt?|Water,Egg-and-Tomato Soup,4
-1007,BaseVegetables|Meat|BaseSalt?|Eggs?,Stir-Fried Meat,4
-1034,BaseFruit|BaseVegetables|BaseMilk,Salad,3
-1068,Fish|BaseVegetables|Salt|Water,Fish Stew,4
-1117,Seafood|Eggs|BaseSalt,Seafood Omelet,3
-1127,Game|Eggs|BaseSalt|BaseVegetables?,Game Omelet,4
-1136,Mushroom|Eggs|BaseSalt,Mushroom Omelet,3
-1174,Bread|Meat|BaseSalt?,Hot Dog,3
-1111,Matsutake|Flour|Salt|Water,Matsutake Noodles,4
-1116,RareSeafood|Sugar|BaseVegetables?|BaseSalt?|Water?,Simmer-Fried Seafood,5
-1125,LandGame|Sugar|Meat?|BaseVegetables?|BaseSalt?,Simmer-Fried Game,5
-1018,Eggs|Flour|BaseSalt?,Flatbread with Eggs,3
-1140,Mushroom|Meat|BaseVegetables|Flour|BaseSalt?,Assorted Dumplings,5
-1076,Rabbit|Flour|Salt,Rabbit Burger,3
-1083,Venison|Flour|Salt,Venison Burger,3
-1090,Quail|Flour|Salt,Quail Burger,3
-1095,Morel|BaseVegetables|Salt|Water,Morel Soup,4
-1102,Agaric|BaseVegetables|Salt|Water,Agaric Soup,4
-1109,Matsutake|BaseVegetables|Salt|Water,Matsutake Soup,4
-1134,Mushroom|BaseVegetables|BaseSalt|Water,Mushroom Soup,4
-1005,Eggs|BaseSalt,Scrambled Eggs,2
-1039,BaseMilk|Tea|BaseSweet?|Water?,Milk Tea,4
-1009,BaseVegetables|Eggs|BaseSalt?,Veggie Omelet,3
-1011,Meat|Eggs|BaseSalt?,Moo Shu Meat,3
-1014,Flour|Water|Eggs?|BaseSalt?,Noodle Soup,4
-1035,BaseMilk|BaseSweet,Milk Pudding,2
-1055,Crab|BaseVegetables|Salt,Crab Roe Stew,3
-1060,Prawn|BaseVegetables|Salt,Garlicky Prawns,3
-1067,Fish|BaseVegetables|Salt,Spicy Fish Head,3
-1086,Quail|Salt|Water,Quail Stew,3
-1019,Meat|BaseVegetables|Flour|BaseSalt?,Chow Mein,4
-1097,Morel|Flour|Salt|Water?,Morel Noodles,4
-1104,Agaric|Flour|Salt|Water?,Agaric Noodles,4
-1129,Game|Flour|BaseSalt,Game Burger,3
-1138,Mushroom|Flour|BaseSalt|Water?,Mushroom Buns,4
-1141,RareMushroom|BaseMilk|BaseVegetables?|Water?|BaseSalt?,Cream of Mushroom Soup,5
-1004,BaseVegetables|BaseSalt|Water,Vegetable Soup,3
-1042,BaseFruit|Tea|BaseSweet?|Water,Fruit Tea,4
-1044,BaseVegetables|BaseMilk|BaseSweet?,Cucumber Smoothie,3
-1045,BaseFruit|BaseMilk|BaseSweet?|Water?,Banana Milkshake,4
-1094,Morel|BaseVegetables|Salt,Mixed Stewed Morels,3
-1096,Morel|Meat|Salt|Water?,Meat Stew with Morels,4
-1101,Agaric|BaseVegetables|Salt,Mixed Stewed Agarics,3
-1103,Agaric|Meat|Salt|Water?,Meat Stew with Agarics,4
-1108,Matsutake|BaseVegetables|Salt,Mixed Stewed Matsutake,3
-1110,Matsutake|Meat|Salt|Water?,Meat Stew with Matsutake,4
-1120,Seafood|BaseVegetables|BaseSalt,Seafood with Stewed Vegetables,3
-1126,Game|BaseVegetables|BaseSalt|Meat?|Eggs?,Game with Stewed Vegetables,5
-1133,Mushroom|BaseVegetables|BaseSalt,Mushrooms with Stewed Vegetables,3
-1135,Mushroom|Meat|BaseSalt|Water?,Meat Stew with Mushrooms,4
-1153,Mushroom|Mushroom|BaseVegetables|BaseSalt|Water?,Mixed Mushroom Stir Fry,5
-1175,Bread|BaseFruit|BaseSweet?|BaseVegetables?,Bread and Jam,4
-1158,Game|Seafood|Mushroom|BaseSalt|Water?,"Surf, Turf, and Earth",5
-1013,Flour|BaseSalt,Bread Rolls,2
-1036,BaseMilk|Flour|BaseSweet?,Cupcake,3
-1149,Game|Game|BaseSalt|Water?|BaseVegetables?,Hunter's Stew,5
-1001,Meat|BaseSalt,Salt-Roasted Skewers,2
-1003,BaseVegetables|BaseSalt,Stir-Fried Vegetables,2
-1059,Prawn|Salt|Water,Steamed Prawns,3
-1066,Fish|Salt|Water,Poached Fish,3
-1072,Rabbit|Salt|Water,Rabbit Stew,3
-1079,Venison|Salt|Water,Venison Stew,3
-1032,BaseFruit|BaseSweet,Fruit Lollipop,2
-1115,Seafood|BaseSalt|Water,Steamed Seafood,3
-1124,Game|BaseSalt?|Water|Meat|BaseVegetables?|Eggs?,Game Stew,6
-1177,Mushroom|Meat|BaseVegetables|BaseSalt?|Game?,Meat and Mushroom Stew,5
-1051,Crab|BaseSalt,Salt-Baked Crab,2
-1058,Prawn|Salt,Grilled Prawns,2
-1065,Fish|Salt,Grilled Fish,2
-1123,Game|BaseSalt|Meat?,Salt-Roasted Game,3
-1147,Seafood|Mushroom|Flour|BaseSalt?,Seafood and Mushroom Balls,4
-1162,Eggs|Water,Boiled Egg,2
-1176,Tea|Water|BaseSweet?,Hot Tea,3
-1093,Morel|Salt,Grilled Morels,2
-1100,Agaric|Salt,Grilled Agarics,2
-1107,Matsutake|Salt,Grilled Matsutake,2
-1114,Seafood|BaseSalt,Salt-Roasted Seafood,2
-1132,Mushroom|BaseSalt,Salt-Roasted Mushrooms,2
-1144,Game|Mushroom|Flour|BaseSalt?,Game and Mushroom Meatballs,4
-1150,Seafood|Seafood|BaseSalt|Water?|BaseVegetables?,Fisherman's Stew,5
-1151,Mushroom|Mushroom|BaseSalt|Water?|Eggs?,Mushroom Delight,5
-1161,Eggs,Fried Egg,1
-1169,Seafood|Water|BaseVegetables?|BaseSalt?|Eggs?,Seafood Broth,5
-1163,BaseVegetables|Water,Blanched Vegetables,2
-1165,BaseFruit|Water,Fruit Juice,2
-1171,BaseMilk,Warm Milk,1
-1146,Seafood|Mushroom|BaseSalt?|Water,Seafood and Mushroom Soup,4
-1143,Game|Mushroom|BaseSalt?|Water|BaseVegetables?,Game and Mushroom Soup,5
-1154,Game|BaseVegetables|BaseSalt?|Water?,Game with Stewed Vegetables,4
-1155,Game|Game|BaseVegetables|BaseSalt?|Water?,Hunter's Stew with Vegetables,5
-1156,Seafood|BaseVegetables|BaseSalt?|Water?,Seafood with Stewed Vegetables,4
-1157,Seafood|Seafood|BaseVegetables|BaseSalt?|Water?,Fisherman's Stew with Vegetables,5
-1148,Game|Seafood|BaseSalt?|Water?|Meat?,Surf 'n' Turf,5
-1164,BaseFruit|BaseVegetables?,Fruit Platter,2
-1145,Seafood|Mushroom|BaseSalt?|Meat?|BaseVegetables?,Seafood with Fried Mushrooms,5
-1052,Crab|BaseSalt?|Water,Steamed Crab,3
-1159,Meat|BaseVegetables?,Grilled Meat,2
-1160,BaseVegetables|Mushroom?,Grilled Vegetables,2
-1167,Mushroom|Water|BaseVegetables?,Blanched Mushrooms,3
-1142,Game|Mushroom|BaseSalt?|BaseVegetables?|Meat?,Game with Fried Mushrooms,5
-1168,Seafood|BaseVegetables?|Mushroom?,Grilled Seafood,3
-1170,Game|Meat?|BaseVegetables?|Mushroom?,Grilled Game,4
-1166,Mushroom,Grilled Mushrooms,1
-1178,Rations,Cooked Rations,1
-1172,Human Meat,Grilled Human Flesh,1
-1173,Human Meat|BaseSalt,Salt-Roasted Human Flesh,2
-23120301,Scorpion|BaseSalt?,Grilled Scorpion,2
-23120302,Scorpion|Eggs|BaseVegetables?|BaseSalt?,Scorpion Scramble,4
-23120303,Scorpion|Flour|BaseSalt|BaseVegetables?|Eggs?,Scorpion Meatballs,5
-23120304,Millipede|BaseSalt?,Millipede Skewer,2
-23120305,Millipede|BaseVegetables|Eggs?|BaseSalt?,Millipede Wrap,4
-23120306,Millipede|Flour|BaseSalt|Meat?|Game?,Millipede Chow Mein,5
-23120307,Beetle|BaseSalt?,Deep-Fried Beetle,2
-23120308,Beetle|Bread|BaseSalt?|Eggs?|BaseVegetables?,Beetle Sandwich,5
-23120309,Beetle|Flour|BaseSalt|Eggs?|BaseVegetables?,Beetle Empanadas,5
-23120310,Insects|Insects|BaseSalt|Insects?|BaseVegetables?,Bug Banquet,5
-1179,Bread|BaseMilk|BaseSweet?,Bread and Milk,3
-1180,Bread|Cheese|BaseSweet?,Grilled Cheese,3
-1181,Bread|BaseVegetables|Cheese?|Spices|Salt?|Seasoning?,Curry Sandwich,6
-1182,Bread|BaseVegetables|Cheese?|Salt?|Seasoning?,Veggie Sandwich,5
-1183,Bread|BaseVegetables?|Cheese?|Chicken|BaseSalt?,Chicken Sandwich,5
-1184,Bread|BaseVegetables?|Cheese?|Pork|BaseSalt?,Pork Chop Sandwich,5
-1185,Bread|BaseVegetables?|Cheese?|Bacon|BaseSalt?,BLT,5
-1186,Bread|BaseVegetables?|Cheese?|Ham|BaseSalt?,Ham Sandwich,5
-1187,Bread|Meat|Eggs|BaseVegetables?|Cheese?|BaseSalt?,Club Sandwich,6
-1188,Bread|Honey|Sugar?,Honey Bread,3
-1189,Bread|Cheese?|Eggs|Honey|Sugar?,French Toast,5
-1190,Bread|BaseVegetables?|Cheese?|Fish|BaseSalt?,Fish Sandwich,5
-1191,Bread|BaseVegetables?|Cheese?|Mushroom|BaseSalt?,Mushroom Sandwich,5
-1192,Bread|BaseVegetables?|Cheese?|Crab|BaseSalt?,Crab Sandwich,5
-1194,Bread|BaseVegetables?|Cheese?|Prawn|BaseSalt?,Prawn Sandwich,5
-1195,Bread|BaseVegetables?|Cheese?|RareSeafood|BaseSalt?,Seafood Sandwich,5
-1196,Bread|BaseVegetables?|Cheese?|Game|BaseSalt?,Game Sandwich,5
-1197,Bread|BaseVegetables?|Cheese?|CaveSeafood|BaseSalt?,Cave Fish Sandwich,5
-1198,Bread|BaseVegetables?|Cheese?|Insects|BaseSalt?,Cave Bug Sandwich,5
-1199,Bread|BaseVegetables?|Cheese?|CaveGame|BaseSalt?,Cave Game Sandwich,5
-1200,Bread|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Sandwich,5
-1201,Flour|Water|Cheese|BaseVegetables|BaseSalt?,Veggie Pizza,5
-1202,Flour|Water|Cheese|BaseVegetables?|BaseFruit|BaseSalt?,Fruit Pizza,6
-1203,Flour|Water|Cheese|BaseVegetables?|Chicken|BaseSalt?,Chicken Pizza,6
-1204,Flour|Water|Cheese|BaseVegetables?|Pork|BaseSalt?,BBQ Pizza,6
-1205,Flour|Water|Cheese|BaseVegetables?|Bacon|BaseSalt?,Bacon Pizza,6
-1206,Flour|Water|Cheese|BaseVegetables?|Ham|BaseSalt?,Ham Pizza,6
-1207,Flour|Water|Cheese|BaseVegetables?|Mushroom|BaseSalt?,Mushroom Pizza,6
-1208,Flour|Water|Cheese|BaseVegetables?|Crab|BaseSalt?,Crab Pizza,6
-1209,Flour|Water|Cheese|BaseVegetables?|Fish|BaseSalt?,Fish Pizza,6
-1210,Flour|Water|Cheese|BaseVegetables?|Prawn|BaseSalt?,Prawn Pizza,6
-1211,Flour|Water|Cheese|BaseVegetables?|RareSeafood|BaseSalt?,Seafood Pizza,6
-1212,Flour|Water|Cheese|BaseVegetables?|Game|BaseSalt?,Game Pizza,6
-1213,Flour|Water|Cheese|BaseVegetables?|CaveSeafood|BaseSalt?,Cave Fish Pizza,6
-1214,Flour|Water|Cheese|BaseVegetables?|Insects|BaseSalt?,Bug Pizza,6
-1215,Flour|Water|Cheese|BaseVegetables?|CaveGame|BaseSalt?,Cave Game Pizza,6
-1216,Flour|Water|Cheese|Mushroom|Game,Supreme Pizza,5
-1217,Flour|BaseMilk?|Eggs?|BaseSalt?,Pancakes,4
-1218,Flour|Sugar|BaseMilk|Eggs|BaseSalt?,Sugar Pancakes,5
-1219,Flour|Honey|BaseMilk?|Eggs?|Sugar?|BaseSalt?,Honey Pancakes,6
-1220,Flour|BaseVegetables|BaseMilk|Eggs|BaseSalt?,Veggie Pancakes,5
-1221,Flour|BaseVegetables|Cheese|BaseSalt?,Cheesy Croquettes,4
-1222,Flour|BaseFruit|Eggs?|BaseSweet?,Fruit Pie,4
-1223,Flour|BaseFruit|Eggs?|Cheese|BaseSweet?,Fruity Custard Pie,5
-1224,Flour|Chicken|BaseSalt?,Chicken Cutlet,3
-1225,Flour|Chicken|Cheese|Eggs?|BaseSalt?,Cheesy Chicken Cutlet,5
-1226,Flour|Pork|BaseSalt?,Pork Cutlet,3
-1227,Flour|Scallop|Pork?|Eggs?|BaseSalt?,Clams Casino,5
-1228,Flour|Pork|Cheese|Eggs?|BaseSalt?,Cheesy Pork Cutlet,5
-1229,Flour|Bacon|BaseVegetables?|BaseSalt?,Bacon Pancakes,4
-1230,Flour|Bacon|Cheese|BaseVegetables?|Eggs?|BaseSalt?,Cheesy Bacon Pancakes,6
-1231,Flour|Ham|BaseVegetables?|Eggs?|BaseSalt?,Ham Pancakes,5
-1232,Flour|Ham|BaseVegetables?|Eggs?|Cheese|BaseSalt?,Cheesy Ham Pancakes,6
-1233,Flour|BaseSweet|Eggs?|BaseSalt?,Donuts,4
-1234,Flour|Eggs|BaseSweet|Cheese|BaseSalt?,Soufflé,5
-1235,Flour|Fish|BaseVegetables|Eggs?|BaseSalt?,Fish and Chips,5
-1236,Flour|Fish|BaseVegetables|Cheese|Eggs?|BaseSalt?,Fish and Cheese Fries,6
-1237,Flour|Agaric|Eggs?|BaseSalt?,Battered Agarics,4
-1238,Flour|Agaric|Eggs?|Cheese|BaseSalt?,Cheesy Battered Agarics,5
-1239,Flour|Morel|Eggs?|BaseSalt?,Battered Morels,4
-1240,Flour|Morel|Eggs?|Cheese|BaseSalt?,Cheesy Battered Morals,5
-1241,Flour|Matsutake|Eggs?|BaseSalt?,Battered Matsutake,4
-1242,Flour|Matsutake|Eggs?|Cheese|BaseSalt?,Cheesy Battered Matsutake,5
-1243,Flour|Mushroom|Eggs?|BaseSalt?,Battered Mushrooms,4
-1244,Flour|Mushroom|Eggs?|Cheese|BaseSalt?,Cheesy Battered Mushrooms,5
-1245,Flour|Crab|Cheese|Eggs?|BaseSweet?,Crab Rangoon,5
-1246,Flour|Crab|Spices|Eggs?|BaseSalt?,Crab Cakes,5
-1247,Flour|Prawn|Eggs?|Cheese|BaseSalt?,Cheesy Prawn Balls,5
-1248,Flour|Fish|Eggs?|Cheese|BaseSalt?,Stargazy Pie,5
-1249,Flour|RegularSeafood|Eggs?|Cheese|BaseSalt?,Cheesy Seafood Croquettes,5
-1250,Flour|Rabbit|Eggs?|BaseSalt?,Rabbit Cutlet,4
-1251,Flour|Rabbit|Eggs?|Cheese|BaseSalt?,Cheesy Rabbit Pie,5
-1252,Flour|Quail|Eggs?|BaseSalt?,Quail Cutlet,4
-1253,Flour|Quail|Eggs?|Cheese|BaseSalt?,Cheesy Quail Pie,5
-1254,Flour|Venison|Eggs?|BaseSalt?,Venison Cutlet,4
-1255,Flour|Venison|Eggs?|Cheese|BaseSalt?,Cheesy Venison Pie,5
-1256,Flour|Game|Eggs?|Cheese|BaseSalt?,Cheesy Game Pie,5
-1257,Flour|CaveSeafood|Eggs?|BaseSalt?,Cave Fish Tempura,4
-1258,Flour|CaveSeafood|Eggs?|Cheese|BaseSalt?,Cave Fish Bisque,5
-1259,Flour|Insects|Eggs?|BaseSalt?,Bug Tempura,4
-1260,Flour|Insects|Eggs?|Cheese|BaseSalt?,Cheesy Bug Tempura,5
-1261,Flour|CaveGame|Eggs?|BaseSalt?,Cave Game Fritters,4
-1262,Flour|CaveGame|Eggs?|Cheese|BaseSalt?,Cave Game Fondue,5
-1263,Meat|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Tempura Platter,5
-1264,Water|Rations|BaseVegetables?|Eggs?|BaseSalt?,Ration Soup,5
-1265,Water|Bread|Eggs?|BaseVegetables?|BaseSalt?,Bread Soup,5
-1266,Water|Chicken|Eggs?|BaseVegetables?|BaseSalt?,Steamed Chicken,5
-1267,Water|Chicken|Medicinal Herbs|BaseVegetables?|Eggs?|BaseSalt?,Herbal Steamed Chicken,6
-1268,Water|Chicken|Tea|BaseVegetables?|Eggs?|BaseSalt?,Tea-Braised Chicken,6
-1269,Water|Pork|BaseVegetables?|Eggs?|BaseSalt?,Pork-Bone Broth,5
-1270,Water|Pork|Medicinal Herbs|BaseVegetables?|Eggs?|BaseSalt?,Herbal Pork-Bone Broth,6
-1271,Water|Pork|Tea|BaseVegetables?|Eggs?|BaseSalt?,Tea-Braised Pork Ribs,6
-1272,Water|Bacon|BaseVegetables?|Eggs?|BaseSalt?,Bacon Soup,5
-1273,Water|Ham|BaseVegetables?|Eggs?|BaseSalt?,Ham Soup,5
-1274,Water|Bacon|Ham|BaseVegetables?|Eggs?|BaseSalt?,Ham & Bacon Soup,6
-1275,Water|Game|BaseVegetables?|Eggs?|BaseSalt?,Game Broth,5
-1276,Water|Game|Medicinal Herbs|BaseVegetables?|Eggs?|BaseSalt?,Herbal Game Broth,6
-1277,Water|Game|Tea|BaseVegetables?|Eggs?|BaseSalt?,Tea-Braised Game,6
-1278,Water|Mushroom|Medicinal Herbs|BaseVegetables?|Eggs?|BaseSalt?,Herbal Mushroom Broth,6
-1279,Water|Mushroom|Tea|BaseVegetables?|Eggs?|BaseSalt?,Tea-Braised Mushrooms,6
-1280,Water|Meat|RegularSeafood|Eggs?|BaseVegetables?|BaseSalt?,Meaty Seafood Stew,6
-1281,Water|Meat|Mushroom|Eggs?|BaseVegetables?|BaseSalt?,Meaty Mushroom Stew,6
-1282,Water|Meat|CaveSeafood|Eggs?|BaseVegetables?|BaseSalt?,Meaty Cave Fish Stew,6
-1283,Water|Meat|CaveGame|Eggs?|BaseVegetables?|BaseSalt?,Meaty Cave Game Stew,6
-1284,Water|Meat|Insects|Eggs?|BaseVegetables?|BaseSalt?,Meaty Bug Stew,6
-1285,Water|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Stew,5
-1286,Flour|Water|BaseVegetables|BaseSalt?,Veggie Noodle Soup,4
-1287,Flour|Water|BaseVegetables?|Eggs?|Chicken|BaseSalt?,Chicken Noodle Soup,6
-1288,Flour|Water|BaseVegetables?|Eggs|BaseSalt?,Egg Noodle Soup,5
-1289,Flour|Water|BaseVegetables?|Eggs?|BaseMilk|BaseSalt?,Creamy Noodle Soup,6
-1290,Flour|Water|BaseVegetables?|Eggs?|Pork|BaseSalt?,Pork-Bone Noodle Soup,6
-1291,Flour|Water|BaseVegetables?|Eggs?|Bacon|BaseSalt?,Bacon Noodle Soup,6
-1292,Flour|Water|BaseVegetables?|Eggs?|Ham|BaseSalt?,Ham Noodle Soup,6
-1293,Flour|Water|BaseVegetables?|Eggs?|Fish|BaseSalt?,Fish Noodle Soup,6
-1294,Flour|Water|BaseVegetables?|Eggs?|Agaric|BaseSalt?,Agaric Noodle Soup,6
-1295,Flour|Water|BaseVegetables?|Eggs?|Morel|BaseSalt?,Morel Noodle Soup,6
-1296,Flour|Water|BaseVegetables?|Eggs?|Matsutake|BaseSalt?,Matsutake Noodle Soup,6
-1297,Flour|Water|BaseVegetables?|Eggs?|Mushroom|BaseSalt?,Mushroom Noodle Soup,6
-1298,Flour|Water|BaseVegetables?|Eggs?|Crab|BaseSalt?,Crab Noodle Soup,6
-1299,Flour|Water|BaseVegetables?|Eggs?|Prawn|BaseSalt?,Prawn Noodle Soup,6
-1301,Flour|Water|BaseVegetables?|Eggs?|RegularSeafood|BaseSalt?,Seafood Noodle Soup,6
-1302,Flour|Water|BaseVegetables?|Eggs?|Rabbit|BaseSalt?,Rabbit Noodle Soup,6
-1303,Flour|Water|BaseVegetables?|Eggs?|Quail|BaseSalt?,Quail Noodle Soup,6
-1304,Flour|Water|BaseVegetables?|Eggs?|Venison|BaseSalt?,Venison Noodle Soup,6
-1305,Flour|Water|BaseVegetables?|Eggs?|Game|BaseSalt?,Game Noodle Soup,6
-1306,Flour|Water|BaseVegetables?|Eggs?|CaveSeafood|BaseSalt?,Cave Fish Noodle Soup,6
-1307,Flour|Water|BaseVegetables?|Eggs?|Insects|BaseSalt?,Bug Noodle Soup,6
-1308,Flour|Water|BaseVegetables?|Eggs?|CaveGame|BaseSalt?,Cave Game Noodle Soup,6
-1309,Flour|Water|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Noodle Soup,6
-1310,BaseMilk|BaseVegetables|Water|BaseSalt?,Onion Soup,4
-1311,BaseMilk|BaseVegetables?|Water?|Eggs|BaseSalt?,Creamed Eggs,5
-1312,BaseMilk|BaseVegetables?|Water?|Chicken|BaseSalt?,Cream of Chicken Soup,5
-1313,BaseMilk|BaseVegetables?|Water?|Pork|BaseSalt?,Creamy Pork Broth,5
-1314,BaseMilk|BaseVegetables?|Water?|Bacon|BaseSalt?,Cream of Bacon Soup,5
-1315,BaseMilk|BaseVegetables?|Water?|Ham|BaseSalt?,Cream of Ham Soup,5
-1316,BaseMilk|BaseVegetables?|Water?|Crab|BaseSalt?,Crab Chowder,5
-1317,BaseMilk|BaseVegetables?|Water?|Prawn|BaseSalt?,Prawn Bisque,5
-1318,BaseMilk|BaseVegetables?|Water?|Fish|BaseSalt?,Fish Chowder,5
-1319,BaseMilk|BaseVegetables?|Water?|RegularSeafood|BaseSalt?,Seafood Bisque,5
-1320,BaseMilk|BaseVegetables?|Water?|Rabbit|BaseSalt?,Creamed Rabbit Stew,5
-1321,BaseMilk|BaseVegetables?|Water?|Quail|BaseSalt?,Creamed Quail Stew,5
-1322,BaseMilk|BaseVegetables?|Water?|Venison|BaseSalt?,Creamed Venison Stew,5
-1323,BaseMilk|BaseVegetables?|Water?|Game|BaseSalt?,Creamed Game Stew,5
-1324,BaseMilk|BaseVegetables?|Water?|CaveSeafood|BaseSalt?,Cave Fish Chowder,5
-1325,BaseMilk|BaseVegetables?|Water?|Insects|BaseSalt?,Bug Bisque,5
-1326,BaseMilk|BaseVegetables?|Water?|CaveGame|BaseSalt?,Cave Game Chowder,5
-1327,BaseMilk|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Chowder,5
-1328,Sugar|BaseVegetables|BaseSalt?,Candied Root Veg,3
-1329,Sugar|Chicken|BaseSalt?,Sweet & Sour Chicken,3
-1330,Sugar|Chicken|BaseVegetables|BaseSalt?,Sweet & Sour Platter,4
-1331,Sugar|Pork|BaseSalt?,Sweet & Sour Pork,3
-1332,Sugar|Pork|BaseVegetables|BaseSalt?,Red-Cooked Pork & Veg,4
-1333,Sugar|Bacon|BaseSalt?,Candied Bacon,3
-1334,Sugar|Bacon|BaseVegetables|BaseSalt?,Candied Bacon Stew,4
-1335,Sugar|Ham|BaseSalt?,Glazed Ham,3
-1336,Sugar|Ham|BaseVegetables|BaseSalt?,Glazed Ham & Veg,4
-1337,Sugar|Agaric|BaseVegetables?|BaseSalt?,Candied Agarics,4
-1338,Sugar|Morel|BaseVegetables?|BaseSalt?,Candied Morels,4
-1339,Sugar|Matsutake|BaseVegetables?|BaseSalt?,Candied Matsutake,4
-1340,Sugar|Mushroom|BaseVegetables?|BaseSalt?,Candied Mushrooms,4
-1341,Sugar|CaveSeafood|BaseVegetables?|BaseSalt?,Sweet & Sour Cave Fish,4
-1342,Sugar|Insects|BaseVegetables?|BaseSalt?,Candied Bugs,4
-1343,Sugar|CaveGame|BaseVegetables?|BaseSalt?,Sweet & Sour Cave Game,4
-1344,Sugar|BaseVegetables?|RegularSeafood|Mushroom|Game,Sweet & Sour Supreme,5
-1345,Honey|BaseVegetables|Sugar?|BaseSalt?,Honey-Roasted Veg,4
-1346,Honey|Chicken|BaseVegetables?|Sugar?|BaseSalt?,Honeyed Chicken Wings,5
-1347,Honey|Pork|Sugar?|BaseSalt?,Honey-Glazed Pork,4
-1348,Honey|Pork|BaseVegetables|Sugar?|BaseSalt?,Honeyed Ham Stew,5
-1349,Honey|Bacon|Sugar?|BaseSalt?,Honeyed Bacon,4
-1350,Honey|Bacon|BaseVegetables|Sugar?|BaseSalt?,Honeyed Bacon Pumpkin,5
-1351,Honey|Ham|Sugar?|BaseSalt?,Honey-Glazed Ham,4
-1352,Honey|Ham|BaseVegetables|Sugar?|BaseSalt?,Honeyed Ham & Yams,5
-1353,Honey|Fish|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Fish,5
-1354,Honey|Prawn|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Prawns,5
-1355,Honey|Crab|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Crab,5
-1356,Honey|RegularSeafood|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Seafood,5
-1357,Honey|Agaric|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Agarics,5
-1358,Honey|Morel|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Morels,5
-1359,Honey|Matsutake|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Matsutake,5
-1360,Honey|Mushroom|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Mushrooms,5
-1361,Honey|Rabbit|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Rabbit,5
-1362,Honey|Quail|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Quail,5
-1363,Honey|Venison|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Venison,5
-1364,Honey|Game|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Game,5
-1365,Honey|CaveSeafood|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Cave Fish,5
-1366,Honey|Insects|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Bugs,5
-1367,Honey|CaveGame|BaseVegetables?|Sugar?|BaseSalt?,Honey-Glazed Cave Game,5
-1368,Honey|BaseVegetables?|RegularSeafood|Mushroom|Game,Honey Supreme,5
-1369,Wine|BaseVegetables|BaseSalt?,Infused Eggplant,3
-1370,Wine|Chicken|BaseVegetables?|BaseSalt?,Drunken Chicken,4
-1371,Wine|Pork|BaseVegetables?|BaseSalt?,Infused Pork Ribs,4
-1372,Wine|Bacon|BaseVegetables?|BaseSalt?,Infused Bacon,4
-1373,Wine|Ham|BaseVegetables?|BaseSalt?,Infused Ham,4
-1374,Wine|Fish|BaseVegetables?|BaseSalt?,Infused Fish,4
-1375,Wine|Prawn|BaseVegetables?|BaseSalt?,Infused Prawns,4
-1376,Wine|Agaric|BaseVegetables?|BaseSalt?,Infused Agarics,4
-1377,Wine|Morel|BaseVegetables?|BaseSalt?,Infused Morels,4
-1378,Wine|Matsutake|BaseVegetables?|BaseSalt?,Infused Matsutake,4
-1379,Wine|Mushroom|BaseVegetables?|BaseSalt?,Infused Mushrooms,4
-1380,Wine|Rabbit|BaseVegetables?|BaseSalt?,Infused Rabbit,4
-1381,Wine|Quail|BaseVegetables?|BaseSalt?,Infused Quail,4
-1382,Wine|Venison|BaseVegetables?|BaseSalt?,Infused Vension,4
-1383,Wine|Game|BaseVegetables?|BaseSalt?,Infused Game,4
-1384,Wine|CaveSeafood|BaseVegetables?|BaseSalt?,Infused Cave Fish,4
-1385,Wine|Insects|BaseVegetables?|BaseSalt?,Infused Bugs,4
-1386,Wine|CaveGame|BaseVegetables?|BaseSalt?,Infused Cave Game,4
-1387,Wine|BaseVegetables?|RegularSeafood|Mushroom|Game,Supreme Infused Stew,5
-1388,BaseFruit|Chicken|BaseSalt?,Chicken and Peaches,3
-1389,BaseFruit|Pork|BaseSalt?,Pork and Apple Sauce,3
-1390,BaseFruit|Bacon|BaseSalt?,Devils on Horseback,3
-1391,BaseFruit|Ham|BaseSalt?,Ham and Melon,3
-1392,BaseFruit|Fish|BaseSalt?,Fish with Lemon,3
-1393,Ham|Cheese|BaseSalt?,Charcuterie,3
-1394,Eggs|BaseVegetables|Meat|RegularSeafood?|Mushroom?|Game?|BaseSalt?,Fried Egg Platter,7
-1395,Eggs|Bacon|Cheese|BaseSalt?,Bacon and Eggs,4
-1396,Water|Medicinal Herbs|BaseSweet?,Herbal Infusion,3
-1397,Water|Salt,Electrolyte Water,2
-1398,Water|Sugar,Sugar Water,2
-1399,Water|Honey|Sugar?,Honey Water,3
-1400,Water|Sugar|Salt|Honey?,Isotonic Sports Drink,4
-1401,Water|Spices|BaseSweet?,Mint Tea,3
-1402,Water|Spices|Tea|BaseSweet?,Spiced Tea,4
-1403,Water?|Spices|Tea|BaseMilk|BaseSweet?,Masala Chai,5
-1404,Water?|BaseMilk|BaseSweet,Sweetened Milk,3
-1405,BaseMilk|Coffee|Salt|BaseSweet?,Salted Caramel Latte,4
-1406,BaseMilk|Coffee|Tea|BaseSweet?,Matcha Latte,4
-1407,BaseMilk|Spices|BaseSweet?,Cinnamon Milk Foam,3
-1408,BaseMilk|Medicinal Herbs|BaseSweet?,Herbal Milk Foam,3
-1409,Beer|Coffee|Water?|BaseSweet?,Coffee Stout,4
-1410,Beer|BaseMilk|Water?|BaseSweet?,Milk Stout,4
-1411,Beer|BaseFruit|Water?|BaseSweet?,Pineapple Beer,4
-1412,Beer|Sugar|Water?|Honey?,Ginger Beer,4
-1413,Beer|Honey|Water?|Sugar?,Honey Beer,4
-1414,Liquor|Beer|Fruit Wine|Water?|BaseMilk?|BaseSweet?,Lights Out,6
-1415,Wine|BaseFruit|Spices?|BaseSweet?,Dustland Sunrise,4
-1416,Wine|BaseMilk|BaseSweet?,Cream Cocktail,3
-1417,Fruit Wine|Coffee|BaseMilk?|BaseSweet?,Fruit Wine Coffee,4
-1418,Fruit Wine|Coffee|BaseMilk|Tea|BaseSweet?,Fruit Tea Latte,5
-1419,Coffee|Water?|BaseSweet,Sweetened Coffee,3
-1420,Coffee|BaseFruit|Water?|BaseSweet?,Orange Coffee,4
-1421,Coffee|BaseFruit|BaseMilk|Water?|BaseSweet?,Coconut Latte,5
-1422,Coffee|BaseVegetables|Water?|BaseSweet?,Carrot Latte,4
-1423,Coffee|BaseVegetables|BaseMilk|Water?|BaseSweet?,Pumpkin Latte,5
-1424,Coffee|Tea|Water?|BaseSweet?,Cofftea,4
-1425,Sugar|BaseVegetables|Water|Honey?,Sweet Vegetable Juice,4
-1426,Sugar|BaseFruit|Water?|Honey?,Sweetened Fruit Juice,4
-1427,Honey|BaseVegetables|Water|Sugar?,Honey-Veg Juice,4
-1428,Honey|BaseFruit|Water|Sugar?,Honey Fruit Juice,4
-1429,Coffee|Liquor|BaseSweet?,Espresso Martini,3
-1430,Coffee|Water,Black Coffee,2
-1431,Flour|BaseMilk|Coffee|BaseSweet?,Coffee Bun,4
-1432,Sugar|Honey?,Candy,2
-1433,BaseVegetables|Eggs|Chicken|Cheese|BaseSweet?,Caesar Salad,5
-1434,Flour|Bread|Fish|Eggs?|BaseVegetables?|BaseSalt?,Fried Fish Sandwich,6
-1435,Flour|Bread|Chicken|Eggs?|BaseVegetables?|BaseSalt?,Chicken Cutlet Sandwich,6
-1436,Flour|Bread|Pork|Eggs?|BaseVegetables?|BaseSalt?,Pork Cutlet Sandwich,6
-1437,Prawn|Water|Mushroom|BaseMilk|BaseSalt?,Shrimp & Mushroom Bisque,5
+Recipe,Ingredient,Name
+1001,CategoryMeat|CategorySalt,Salt-Roasted Skewers
+1002,CategoryMeat|CategorySalt|Water,Meat Broth
+1003,CategoryVegetables|CategorySalt,Stir-Fried Vegetables
+1004,CategoryVegetables|CategorySalt|Water,Vegetable Soup
+1005,CategoryEgg|CategorySalt,Scrambled Eggs
+1006,CategoryEgg|CategorySalt|Water,Egg-Drop Soup
+1007,CategoryVegetables|CategoryMeat|CategorySalt?|CategoryEgg?,Stir-Fried Meat
+1008,CategoryVegetables|CategoryMeat|CategorySalt?|Water,Meat-and-Veg Stew
+1009,CategoryVegetables|CategoryEgg|CategorySalt?,Veggie Omelet
+1010,CategoryVegetables|CategoryEgg|CategorySalt?|Water,Egg-and-Tomato Soup
+1011,CategoryMeat|CategoryEgg|CategorySalt?,Moo Shu Meat
+1012,CategoryMeat|CategoryEgg|CategorySalt|Water,Steamed Egg with Meat
+1013,Flour|CategorySalt,Bread Rolls
+1014,Flour|Water|CategoryEgg?|CategorySalt?,Noodle Soup
+1015,CategoryMeat|Flour|CategorySalt,Braised Meat
+1016,CategoryVegetables|Flour|CategorySalt,Scallion Pancake
+1017,CategoryVegetables|Flour|CategorySalt|Water,Soup with Dumplings
+1018,CategoryEgg|Flour|CategorySalt?,Flatbread with Eggs
+1019,CategoryMeat|CategoryVegetables|Flour|CategorySalt?,Chow Mein
+1020,CategoryMeat|CategoryEgg|Flour|CategorySalt?,Empanadas
+1021,CategoryVegetables|CategoryEgg|Flour|CategorySalt?,Veggie Tempura
+1022,CategoryMeat|CategoryVegetables|CategoryEgg|Flour|CategorySalt?,Stuffed Flatbread
+1023,CategoryMeat|CategorySweets|CategorySalt,Simmer-Fried Meat
+1024,CategoryMeat|Flour|CategorySweets|CategorySalt,Sweet-and-Sour Meat
+1025,CategoryVegetables|CategorySweets|CategorySalt,Candied Lotus Root
+1026,CategoryVegetables|Flour|CategorySweets|CategorySalt,Stewed Eggplant
+1027,CategoryMeat|CategoryVegetables|Flour|CategorySweets|CategorySalt,Ketchup Braised Meat
+1028,CategoryMeat|CategoryFruit|Flour|CategorySweets|CategorySalt,Pineapple Meat Stir Fry
+1029,Bread|Cheese?|CategoryEgg|CategoryVegetables?|CategorySalt?,Egg Sandwich
+1030,Bread|CategoryMeat|CategoryVegetables|CategoryEgg|Cheese?|CategorySalt?,Cheeseburger
+1031,CategoryFruit|Salt|CategorySweets,Candied Fruit
+1032,CategoryFruit|CategorySweets,Fruit Lollipop
+1033,CategoryFruit|CategorySweets|CategoryMilk,Stewed Fruit
+1034,CategoryFruit|CategoryVegetables|CategoryMilk,Salad
+1035,CategoryMilk|CategorySweets,Milk Pudding
+1036,CategoryMilk|Flour|CategorySweets?,Cupcake
+1037,CategoryEgg|Flour|CategorySweets?|Cheese,Egg Tart
+1038,CategoryVegetables|CategoryEgg|Flour|CategorySweets?|CategoryMilk,Stuffed Pumpkin
+1039,CategoryMilk|Tea|CategorySweets?|Water?,Milk Tea
+1040,CategoryFruit|Tea|CategoryMilk|CategorySweets?|Water?,Jujube Milk Tea
+1041,CategoryVegetables|Tea|CategoryMilk|CategorySweets?|Water,Taro Milk Tea
+1042,CategoryFruit|Tea|CategorySweets?|Water,Fruit Tea
+1043,CategoryFruit|CategoryVegetables|Tea|CategorySweets?|Water,Mixed Tea
+1044,CategoryVegetables|CategoryMilk|CategorySweets?,Cucumber Smoothie
+1045,CategoryFruit|CategoryMilk|CategorySweets?|Water?,Banana Milkshake
+1046,Medicinal Herbs|CategoryMilk|CategorySweets?|Water,Medicinal Jelly
+1047,Medicinal Herbs|Tea|CategorySweets?|Water,Herbal Tea
+1048,Coffee|CategoryMilk|CategorySweets?|Water?,Cappuccino
+1049,CategoryWine|Spices|CategorySweets?|Water?,Mint Julep
+1050,CategoryWine|Spices|CategoryFruit|CategorySweets|Water?,Manhattan
+1051,Crab|CategorySalt,Salt-Baked Crab
+1052,Crab|CategorySalt?|Water,Steamed Crab
+1053,Crab|Sugar|CategorySalt?,Simmer-Fried Crab
+1054,Crab|CategoryEgg|Salt|Water?,Steamed Egg with Crab
+1055,Crab|CategoryVegetables|Salt,Crab Roe Stew
+1056,Crab|CategoryWine|CategorySalt?|CategoryVegetables?,Drunken Crab
+1057,Crab|CategoryEgg?|Flour|CategorySalt?,Deep-Fried Crab
+1058,Prawn|Salt,Grilled Prawns
+1059,Prawn|Salt|Water,Steamed Prawns
+1060,Prawn|CategoryVegetables|Salt,Garlicky Prawns
+1061,Prawn|Sugar|CategorySalt?,Simmer-Fried Prawns
+1062,Prawn|CategoryEgg|Salt,Prawn Omelet
+1063,Prawn|CategoryEgg|Salt|Water,Steamed Egg with Prawns
+1064,Prawn|CategoryEgg?|Flour|CategorySalt?,Prawn Tempura
+1065,Fish|Salt,Grilled Fish
+1066,Fish|Salt|Water,Poached Fish
+1067,Fish|CategoryVegetables|Salt,Spicy Fish Head
+1068,Fish|CategoryVegetables|Salt|Water,Fish Stew
+1069,Fish|Sugar|CategorySalt?|CategoryVegetables?,Simmer-Fried Fish
+1070,Fish|Sugar|Flour|Salt|CategoryVegetables?,Braised Fish
+1071,Fish|CategoryEgg|Flour|CategorySalt?,Fried Fish Balls
+1072,Rabbit|Salt|Water,Rabbit Stew
+1073,Rabbit|Sugar|CategorySalt?|CategoryVegetables?,Simmer-Fried Rabbit
+1074,Rabbit|CategoryEgg|Salt,Rabbit Omelet
+1075,Rabbit|CategoryEgg|Salt|Water,Rabbit with Steamed Egg
+1076,Rabbit|Flour|Salt,Rabbit Burger
+1077,Rabbit|Sugar|Flour|Salt|CategoryVegetables?,Braised Rabbit
+1078,Rabbit|CategoryEgg|Flour|Salt,Rabbit Meatballs
+1079,Venison|Salt|Water,Venison Stew
+1080,Venison|Sugar|CategorySalt?|CategoryVegetables?,Simmer-Fried Venison
+1081,Venison|CategoryEgg|Salt,Venison Omelet
+1082,Venison|CategoryEgg|Salt|Water,Venison with Steamed Egg
+1083,Venison|Flour|Salt,Venison Burger
+1084,Venison|Sugar|Flour|Salt|CategoryVegetables?,Braised Venison
+1085,Venison|CategoryEgg|Flour|Salt,Venison Meatballs
+1086,Quail|Salt|Water,Quail Stew
+1087,Quail|Sugar|CategorySalt?|CategoryVegetables?,Simmer-Fried Quail
+1088,Quail|CategoryEgg|Salt,Quail Omelet
+1089,Quail|CategoryEgg|Salt|Water,Quail with Steamed Egg
+1090,Quail|Flour|Salt,Quail Burger
+1091,Quail|Sugar|Flour|Salt|CategoryVegetables?,Braised Quail
+1092,Quail|CategoryEgg|Flour|Salt,Quail Meatballs
+1093,Morel|Salt,Grilled Morels
+1094,Morel|CategoryVegetables|Salt,Mixed Stewed Morels
+1095,Morel|CategoryVegetables|Salt|Water,Morel Soup
+1096,Morel|CategoryMeat|Salt|Water?,Meat Stew with Morels
+1097,Morel|Flour|Salt|Water?,Morel Noodles
+1098,Morel|CategoryMeat|Flour|Salt,Meat Dumplings with Morels
+1099,CategoryMilk|Morel|CategoryVegetables?|CategorySalt?|Water?,Cream of Morel Soup
+1100,Agaric|Salt,Grilled Agarics
+1101,Agaric|CategoryVegetables|Salt,Mixed Stewed Agarics
+1102,Agaric|CategoryVegetables|Salt|Water,Agaric Soup
+1103,Agaric|CategoryMeat|Salt|Water?,Meat Stew with Agarics
+1104,Agaric|Flour|Salt|Water?,Agaric Noodles
+1105,Agaric|CategoryMeat|Flour|Salt,Meat Dumplings with Agarics
+1106,CategoryMilk|Agaric|CategoryVegetables?|CategorySalt?|Water?,Cream of Agaric Soup
+1107,Matsutake|Salt,Grilled Matsutake
+1108,Matsutake|CategoryVegetables|Salt,Mixed Stewed Matsutake
+1109,Matsutake|CategoryVegetables|Salt|Water,Matsutake Soup
+1110,Matsutake|CategoryMeat|Salt|Water?,Meat Stew with Matsutake
+1111,Matsutake|Flour|Salt|Water,Matsutake Noodles
+1112,Matsutake|CategoryMeat|Flour|Salt,Meat Dumplings with Matsutake
+1113,CategoryMilk|Matsutake|CategoryVegetables?|CategorySalt?|Water?,Cream of Matsutake Soup
+1114,CategorySeafood|CategorySalt,Salt-Roasted Seafood
+1115,CategorySeafood|CategorySalt|Water,Steamed Seafood
+1116,CategoryCaveSeafood|Sugar|CategoryVegetables?|CategorySalt?|Water?,Simmer-Fried Seafood
+1117,CategorySeafood|CategoryEgg|CategorySalt,Seafood Omelet
+1118,CategorySeafood|CategoryEgg|CategorySalt|Water,Steamed Egg with Seafood
+1119,CategoryCaveSeafood|CategoryEgg?|Flour|CategorySalt?,Seafood Balls
+1120,CategorySeafood|CategoryVegetables|CategorySalt,Seafood with Stewed Vegetables
+1121,CategoryCaveSeafood|CategoryWine|Water?|CategoryVegetables?|CategorySalt?,Drunken Seafood
+1122,CategorySeafood|Flour|CategorySweets|CategorySalt|CategoryVegetables?,Braised Seafood
+1123,CategoryGame|CategorySalt|CategoryMeat?,Salt-Roasted Game
+1124,CategoryGame|CategorySalt?|Water|CategoryMeat|CategoryVegetables?|CategoryEgg?,Game Stew
+1125,CategoryCaveGame|Sugar|CategoryMeat?|CategoryVegetables?|CategorySalt?,Simmer-Fried Game
+1126,CategoryGame|CategoryVegetables|CategorySalt|CategoryMeat?|CategoryEgg?,Game with Stewed Vegetables
+1127,CategoryGame|CategoryEgg|CategorySalt|CategoryVegetables?,Game Omelet
+1128,CategoryGame|CategoryEgg|CategorySalt|Water|CategoryVegetables?,Game with Steamed Egg
+1129,CategoryGame|Flour|CategorySalt,Game Burger
+1130,CategoryGame|CategorySweets|Flour|CategorySalt|CategoryVegetables?,Braised Game
+1131,CategoryCaveGame|CategoryEgg?|Flour|CategorySalt?,Game Meatballs
+1132,CategoryMushroom|CategorySalt,Salt-Roasted Mushrooms
+1133,CategoryMushroom|CategoryVegetables|CategorySalt,Mushrooms with Stewed Vegetables
+1134,CategoryMushroom|CategoryVegetables|CategorySalt|Water,Mushroom Soup
+1135,CategoryMushroom|CategoryMeat|CategorySalt|Water?,Meat Stew with Mushrooms
+1136,CategoryMushroom|CategoryEgg|CategorySalt,Mushroom Omelet
+1137,CategoryMushroom|CategoryEgg|CategorySalt|Water,Mushrooms with Steamed Egg
+1138,CategoryMushroom|Flour|CategorySalt|Water?,Mushroom Buns
+1139,CategoryMushroom|CategoryMeat|Flour|CategorySalt,Meat Dumplings with Mushrooms
+1140,CategoryMushroom|CategoryMeat|CategoryVegetables|Flour|CategorySalt?,Assorted Dumplings
+1141,CategoryCaveMushroom|CategoryMilk|CategoryVegetables?|Water?|CategorySalt?|Water?,Cream of Mushroom Soup
+1142,CategoryGame|CategoryMushroom|CategorySalt?|CategoryVegetables?|CategoryMeat?,Game with Fried Mushrooms
+1143,CategoryGame|CategoryMushroom|CategorySalt?|Water|CategoryVegetables?,Game and Mushroom Soup
+1144,CategoryGame|CategoryMushroom|Flour|CategorySalt?,Game and Mushroom Meatballs
+1145,CategorySeafood|CategoryMushroom|CategorySalt?|CategoryMeat?|CategoryVegetables?,Seafood with Fried Mushrooms
+1146,CategorySeafood|CategoryMushroom|CategorySalt?|Water,Seafood and Mushroom Soup
+1147,CategorySeafood|CategoryMushroom|Flour|CategorySalt?,Seafood and Mushroom Balls
+1148,CategoryGame|CategorySeafood|CategorySalt?|Water?|CategoryMeat?,Surf 'n' Turf
+1149,CategoryGame|CategoryGame|CategorySalt|Water?|CategoryVegetables?,Hunter's Stew
+1150,CategorySeafood|CategorySeafood|CategorySalt|Water?|CategoryVegetables?,Fisherman's Stew
+1151,CategoryMushroom|CategoryMushroom|CategorySalt|Water?|CategoryEgg?,Mushroom Delight
+1152,CategoryMushroom|CategoryVegetables|CategorySalt|Water|CategoryEgg,Mushroom and Egg Stir Fry
+1153,CategoryMushroom|CategoryMushroom|CategoryVegetables|CategorySalt|Water?,Mixed Mushroom Stir Fry
+1154,CategoryGame|CategoryVegetables|CategorySalt?|Water?,Game with Stewed Vegetables
+1155,CategoryGame|CategoryGame|CategoryVegetables|CategorySalt?|Water?,Hunter's Stew with Vegetables
+1156,CategorySeafood|CategoryVegetables|CategorySalt?|Water?,Seafood with Stewed Vegetables
+1157,CategorySeafood|CategorySeafood|CategoryVegetables|CategorySalt?|Water?,Fisherman's Stew with Vegetables
+1158,CategoryGame|CategorySeafood|CategoryMushroom|CategorySalt|Water?,"Surf, Turf, and Earth"
+1159,CategoryMeat|CategoryVegetables?,Grilled Meat
+1160,CategoryVegetables|CategoryMushroom?,Grilled Vegetables
+1161,CategoryEgg,Fried Egg
+1162,CategoryEgg|Water,Boiled Egg
+1163,CategoryVegetables|Water,Blanched Vegetables
+1164,CategoryFruit|CategoryVegetables?,Fruit Platter
+1165,CategoryFruit|Water,Fruit Juice
+1166,CategoryMushroom,Grilled Mushrooms
+1167,CategoryMushroom|Water|CategoryVegetables?,Blanched Mushrooms
+1168,CategorySeafood|CategoryVegetables?|CategoryMushroom?,Grilled Seafood
+1169,CategorySeafood|Water|CategoryVegetables?|CategorySalt?|CategoryEgg?,Seafood Broth
+1170,CategoryGame|CategoryMeat?|CategoryVegetables?|CategoryMushroom?,Grilled Game
+1171,CategoryMilk,Warm Milk
+1172,CategoryHumanMeat,Grilled Human Flesh
+1173,CategoryHumanMeat|CategorySalt,Salt-Roasted Human Flesh
+1174,Bread|CategoryMeat|CategorySalt?,Hot Dog
+1175,Bread|CategoryFruit|CategorySweets?|CategoryVegetables?,Bread and Jam
+1176,Tea|Water|CategorySweets?,Hot Tea
+1177,CategoryMushroom|CategoryMeat|CategoryVegetables|CategorySalt?|CategoryGame?,Meat and Mushroom Stew
+1178,Rations,Cooked Rations
+1179,Bread|Milk|CategorySweets?,Bread and Milk
+1180,Bread|Cheese|CategorySweets?,Grilled Cheese
+1181,Bread|CategoryVegetables|Cheese?|Spices|Salt?|Seasoning?,Curry Sandwich
+1182,Bread|CategoryVegetables|Cheese?|Salt?|Seasoning?,Veggie Sandwich
+1183,Bread|CategoryVegetables?|Cheese?|Cheese|CategorySalt?,Chicken Sandwich
+1184,Bread|CategoryVegetables?|Cheese?|Pork|CategorySalt?,Pork Chop Sandwich
+1185,Bread|CategoryVegetables?|Cheese?|Salt Pork|CategorySalt?,BLT
+1186,Bread|CategoryVegetables?|Cheese?|Ham|CategorySalt?,Ham Sandwich
+1187,Bread|CategoryMeat|CategoryEgg|CategoryVegetables?|Cheese?|CategorySalt?,Club Sandwich
+1188,Bread|Honey|Sugar?,Honey Bread
+1189,Bread|Cheese?|CategoryEgg|Honey|Sugar?,French Toast
+1190,Bread|CategoryVegetables?|Cheese?|Fish|CategorySalt?,Fish Sandwich
+1191,Bread|CategoryVegetables?|Cheese?|CategoryMushroom|CategorySalt?,Mushroom Sandwich
+1192,Bread|CategoryVegetables?|Cheese?|Crab|CategorySalt?,Crab Sandwich
+1194,Bread|CategoryVegetables?|Cheese?|Prawn|CategorySalt?,Prawn Sandwich
+1195,Bread|CategoryVegetables?|Cheese?|CategoryCaveSeafood|CategorySalt?,Seafood Sandwich
+1196,Bread|CategoryVegetables?|Cheese?|CategoryGame|CategorySalt?,Game Sandwich
+1197,Bread|CategoryVegetables?|Cheese?|CategoryCaveSeafood|CategorySalt?,Cave Fish Sandwich
+1198,Bread|CategoryVegetables?|Cheese?|CategoryInsects|CategorySalt?,Cave Bug Sandwich
+1199,Bread|CategoryVegetables?|Cheese?|CategoryCaveGame|CategorySalt?,Cave Game Sandwich
+1200,Bread|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Sandwich
+1201,Flour|Water|Cheese|CategoryVegetables|CategorySalt?,Veggie Pizza
+1202,Flour|Water|Cheese|CategoryVegetables?|CategoryFruit|CategorySalt?,Fruit Pizza
+1203,Flour|Water|Cheese|CategoryVegetables?|Cheese|CategorySalt?,Chicken Pizza
+1204,Flour|Water|Cheese|CategoryVegetables?|Pork|CategorySalt?,BBQ Pizza
+1205,Flour|Water|Cheese|CategoryVegetables?|Salt Pork|CategorySalt?,Salt Pork Pizza
+1206,Flour|Water|Cheese|CategoryVegetables?|Ham|CategorySalt?,Ham Pizza
+1207,Flour|Water|Cheese|CategoryVegetables?|CategoryMushroom|CategorySalt?,Mushroom Pizza
+1208,Flour|Water|Cheese|CategoryVegetables?|Crab|CategorySalt?,Crab Pizza
+1209,Flour|Water|Cheese|CategoryVegetables?|Fish|CategorySalt?,Fish Pizza
+1210,Flour|Water|Cheese|CategoryVegetables?|Prawn|CategorySalt?,Prawn Pizza
+1211,Flour|Water|Cheese|CategoryVegetables?|CategoryCaveSeafood|CategorySalt?,Seafood Pizza
+1212,Flour|Water|Cheese|CategoryVegetables?|CategoryGame|CategorySalt?,Game Pizza
+1213,Flour|Water|Cheese|CategoryVegetables?|CategoryCaveSeafood|CategorySalt?,Cave Fish Pizza
+1214,Flour|Water|Cheese|CategoryVegetables?|CategoryInsects|CategorySalt?,Bug Pizza
+1215,Flour|Water|Cheese|CategoryVegetables?|CategoryCaveGame|CategorySalt?,Cave Game Pizza
+1216,Flour|Water|Cheese|CategoryMushroom|CategoryGame,Supreme Pizza
+1217,Flour|Milk?|CategoryEgg?|CategorySalt?,Pancakes
+1218,Flour|Sugar|Milk|CategoryEgg|CategorySalt?,Sugar Pancakes
+1219,Flour|Honey|CategoryMilk?|CategoryEgg?|Sugar?|CategorySalt?,Honey Pancakes
+1220,Flour|CategoryVegetables|Milk|CategoryEgg|CategorySalt?,Veggie Pancakes
+1221,Flour|CategoryVegetables|Cheese|CategorySalt?,Cheesy Croquettes
+1222,Flour|CategoryFruit|CategoryEgg?|CategorySweets?,Fruit Pie
+1223,Flour|CategoryFruit|CategoryEgg?|Cheese|CategorySweets?,Fruity Custard Pie
+1224,Flour|Cheese|CategorySalt?,Chicken Cutlet
+1225,Flour|Cheese|Cheese|CategoryEgg?|CategorySalt?,Cheesy Chicken Cutlet
+1226,Flour|Pork|CategorySalt?,Pork Cutlet
+1227,Flour|Scallop|Pork?|CategoryEgg?|CategorySalt?,Clams Casino
+1228,Flour|Pork|Cheese|CategoryEgg?|CategorySalt?,Cheesy Pork Cutlet
+1229,Flour|Salt Pork|CategoryVegetables?|CategorySalt?,Salt Pork Pancakes
+1230,Flour|Salt Pork|Cheese|CategoryVegetables?|CategoryEgg?|CategorySalt?,Cheesy Salt Pork Pancakes
+1231,Flour|Ham|CategoryVegetables?|CategoryEgg?|CategorySalt?,Ham Pancakes
+1232,Flour|Ham|CategoryVegetables?|CategoryEgg?|Cheese|CategorySalt?,Cheesy Ham Pancakes
+1233,Flour|CategorySweets|CategoryEgg?|CategorySalt?,Donuts
+1234,Flour|CategoryEgg|CategorySweets|Cheese|CategorySalt?,Soufflé
+1235,Flour|Fish|CategoryVegetables|CategoryEgg?|CategorySalt?,Fish and Chips
+1236,Flour|Fish|CategoryVegetables|Cheese|CategoryEgg?|CategorySalt?,Fish and Cheese Fries
+1237,Flour|Agaric|CategoryEgg?|CategorySalt?,Battered Agarics
+1238,Flour|Agaric|CategoryEgg?|Cheese|CategorySalt?,Cheesy Battered Agarics
+1239,Flour|Morel|CategoryEgg?|CategorySalt?,Battered Morels
+1240,Flour|Morel|CategoryEgg?|Cheese|CategorySalt?,Cheesy Battered Morals
+1241,Flour|Matsutake|CategoryEgg?|CategorySalt?,Battered Matsutake
+1242,Flour|Matsutake|CategoryEgg?|Cheese|CategorySalt?,Cheesy Battered Matsutake
+1243,Flour|CategoryMushroom|CategoryEgg?|CategorySalt?,Battered Mushrooms
+1244,Flour|CategoryMushroom|CategoryEgg?|Cheese|CategorySalt?,Cheesy Battered Mushrooms
+1245,Flour|Crab|Cheese|CategoryEgg?|CategorySweets?,Crab Rangoon
+1246,Flour|Crab|Spices|CategoryEgg?|CategorySalt?,Crab Cakes
+1247,Flour|Prawn|CategoryEgg?|Cheese|CategorySalt?,Cheesy Prawn Balls
+1248,Flour|Fish|CategoryEgg?|Cheese|CategorySalt?,Stargazy Pie
+1249,Flour|CategorySurfaceSeafood|CategoryEgg?|Cheese|CategorySalt?,Cheesy Seafood Croquettes
+1250,Flour|Rabbit|CategoryEgg?|CategorySalt?,Rabbit Cutlet
+1251,Flour|Rabbit|CategoryEgg?|Cheese|CategorySalt?,Cheesy Rabbit Pie
+1252,Flour|Quail|CategoryEgg?|CategorySalt?,Quail Cutlet
+1253,Flour|Quail|CategoryEgg?|Cheese|CategorySalt?,Cheesy Quail Pie
+1254,Flour|Venison|CategoryEgg?|CategorySalt?,Venison Cutlet
+1255,Flour|Venison|CategoryEgg?|Cheese|CategorySalt?,Cheesy Venison Pie
+1256,Flour|CategoryGame|CategoryEgg?|Cheese|CategorySalt?,Cheesy Game Pie
+1257,Flour|CategoryCaveSeafood|CategoryEgg?|CategorySalt?,Cave Fish Tempura
+1258,Flour|CategoryCaveSeafood|CategoryEgg?|Cheese|CategorySalt?,Cave Fish Bisque
+1259,Flour|CategoryInsects|CategoryEgg?|CategorySalt?,Bug Tempura
+1260,Flour|CategoryInsects|CategoryEgg?|Cheese|CategorySalt?,Cheesy Bug Tempura
+1261,Flour|CategoryCaveGame|CategoryEgg?|CategorySalt?,Cave Game Fritters
+1262,Flour|CategoryCaveGame|CategoryEgg?|Cheese|CategorySalt?,Cave Game Fondue
+1263,CategoryMeat|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Tempura Platter
+1264,Water|Rations|CategoryVegetables?|CategoryEgg?|CategorySalt?,Ration Soup
+1265,Water|Bread|CategoryEgg?|CategoryVegetables?|CategorySalt?,Bread Soup
+1266,Water|Cheese|CategoryEgg?|CategoryVegetables?|CategorySalt?,Steamed Chicken
+1267,Water|Cheese|Medicinal Herbs|CategoryVegetables?|CategoryEgg?|CategorySalt?,Herbal Steamed Chicken
+1268,Water|Cheese|Tea|CategoryVegetables?|CategoryEgg?|CategorySalt?,Tea-Braised Chicken
+1269,Water|Pork|CategoryVegetables?|CategoryEgg?|CategorySalt?,Pork-Bone Broth
+1270,Water|Pork|Medicinal Herbs|CategoryVegetables?|CategoryEgg?|CategorySalt?,Herbal Pork-Bone Broth
+1271,Water|Pork|Tea|CategoryVegetables?|CategoryEgg?|CategorySalt?,Tea-Braised Pork Ribs
+1272,Water|Salt Pork|CategoryVegetables?|CategoryEgg?|CategorySalt?,Salt Pork Soup
+1273,Water|Ham|CategoryVegetables?|CategoryEgg?|CategorySalt?,Ham Soup
+1274,Water|Salt Pork|Ham|CategoryVegetables?|CategoryEgg?|CategorySalt?,Ham & Salt Pork Soup
+1275,Water|CategoryGame|CategoryVegetables?|CategoryEgg?|CategorySalt?,Game Broth
+1276,Water|CategoryGame|Medicinal Herbs|CategoryVegetables?|CategoryEgg?|CategorySalt?,Herbal Game Broth
+1277,Water|CategoryGame|Tea|CategoryVegetables?|CategoryEgg?|CategorySalt?,Tea-Braised Game
+1278,Water|CategoryMushroom|Medicinal Herbs|CategoryVegetables?|CategoryEgg?|CategorySalt?,Herbal Mushroom Broth
+1279,Water|CategoryMushroom|Tea|CategoryVegetables?|CategoryEgg?|CategorySalt?,Tea-Braised Mushrooms
+1280,Water|CategoryMeat|CategorySurfaceSeafood|CategoryEgg?|CategoryVegetables?|CategorySalt?,Meaty Seafood Stew
+1281,Water|CategoryMeat|CategoryMushroom|CategoryEgg?|CategoryVegetables?|CategorySalt?,Meaty Mushroom Stew
+1282,Water|CategoryMeat|CategoryCaveSeafood|CategoryEgg?|CategoryVegetables?|CategorySalt?,Meaty Cave Fish Stew
+1283,Water|CategoryMeat|CategoryCaveGame|CategoryEgg?|CategoryVegetables?|CategorySalt?,Meaty Cave Game Stew
+1284,Water|CategoryMeat|CategoryInsects|CategoryEgg?|CategoryVegetables?|CategorySalt?,Meaty Bug Stew
+1285,Water|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Stew
+1286,Flour|Water|CategoryVegetables|CategorySalt?,Veggie Noodle Soup
+1287,Flour|Water|CategoryVegetables?|CategoryEgg?|Cheese|CategorySalt?,Chicken Noodle Soup
+1288,Flour|Water|CategoryVegetables?|CategoryEgg|CategorySalt?,Egg Noodle Soup
+1289,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryMilk|CategorySalt?,Creamy Noodle Soup
+1290,Flour|Water|CategoryVegetables?|CategoryEgg?|Pork|CategorySalt?,Pork-Bone Noodle Soup
+1291,Flour|Water|CategoryVegetables?|CategoryEgg?|Salt Pork|CategorySalt?,Salt Pork Noodle Soup
+1292,Flour|Water|CategoryVegetables?|CategoryEgg?|Ham|CategorySalt?,Ham Noodle Soup
+1293,Flour|Water|CategoryVegetables?|CategoryEgg?|Fish|CategorySalt?,Fish Noodle Soup
+1294,Flour|Water|CategoryVegetables?|CategoryEgg?|Agaric|CategorySalt?,Agaric Noodle Soup
+1295,Flour|Water|CategoryVegetables?|CategoryEgg?|Morel|CategorySalt?,Morel Noodle Soup
+1296,Flour|Water|CategoryVegetables?|CategoryEgg?|Matsutake|CategorySalt?,Matsutake Noodle Soup
+1297,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryMushroom|CategorySalt?,Mushroom Noodle Soup
+1298,Flour|Water|CategoryVegetables?|CategoryEgg?|Crab|CategorySalt?,Crab Noodle Soup
+1299,Flour|Water|CategoryVegetables?|CategoryEgg?|Prawn|CategorySalt?,Prawn Noodle Soup
+1301,Flour|Water|CategoryVegetables?|CategoryEgg?|CategorySurfaceSeafood|CategorySalt?,Seafood Noodle Soup
+1302,Flour|Water|CategoryVegetables?|CategoryEgg?|Rabbit|CategorySalt?,Rabbit Noodle Soup
+1303,Flour|Water|CategoryVegetables?|CategoryEgg?|Quail|CategorySalt?,Quail Noodle Soup
+1304,Flour|Water|CategoryVegetables?|CategoryEgg?|Venison|CategorySalt?,Venison Noodle Soup
+1305,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryGame|CategorySalt?,Game Noodle Soup
+1306,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryCaveSeafood|CategorySalt?,Cave Fish Noodle Soup
+1307,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryInsects|CategorySalt?,Bug Noodle Soup
+1308,Flour|Water|CategoryVegetables?|CategoryEgg?|CategoryCaveGame|CategorySalt?,Cave Game Noodle Soup
+1309,Flour|Water|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Noodle Soup
+1310,CategoryMilk|CategoryVegetables|Water|CategorySalt?,Onion Soup
+1311,CategoryMilk|CategoryVegetables?|Water?|CategoryEgg|CategorySalt?,Creamed Eggs
+1312,CategoryMilk|CategoryVegetables?|Water?|Cheese|CategorySalt?,Cream of Chicken Soup
+1313,CategoryMilk|CategoryVegetables?|Water?|Pork|CategorySalt?,Creamy Pork Broth
+1314,CategoryMilk|CategoryVegetables?|Water?|Salt Pork|CategorySalt?,Cream of Salt Pork Soup
+1315,CategoryMilk|CategoryVegetables?|Water?|Ham|CategorySalt?,Cream of Ham Soup
+1316,CategoryMilk|CategoryVegetables?|Water?|Crab|CategorySalt?,Crab Chowder
+1317,CategoryMilk|CategoryVegetables?|Water?|Prawn|CategorySalt?,Prawn Bisque
+1318,CategoryMilk|CategoryVegetables?|Water?|Fish|CategorySalt?,Fish Chowder
+1319,CategoryMilk|CategoryVegetables?|Water?|CategorySurfaceSeafood|CategorySalt?,Seafood Bisque
+1320,CategoryMilk|CategoryVegetables?|Water?|Rabbit|CategorySalt?,Creamed Rabbit Stew
+1321,CategoryMilk|CategoryVegetables?|Water?|Quail|CategorySalt?,Creamed Quail Stew
+1322,CategoryMilk|CategoryVegetables?|Water?|Venison|CategorySalt?,Creamed Venison Stew
+1323,CategoryMilk|CategoryVegetables?|Water?|CategoryGame|CategorySalt?,Creamed Game Stew
+1324,CategoryMilk|CategoryVegetables?|Water?|CategoryCaveSeafood|CategorySalt?,Cave Fish Chowder
+1325,CategoryMilk|CategoryVegetables?|Water?|CategoryInsects|CategorySalt?,Bug Bisque
+1326,CategoryMilk|CategoryVegetables?|Water?|CategoryCaveGame|CategorySalt?,Cave Game Chowder
+1327,CategoryMilk|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Chowder
+1328,Sugar|CategoryVegetables|CategorySalt?,Candied Root Veg
+1329,Sugar|Cheese|CategorySalt?,Sweet & Sour Chicken
+1330,Sugar|Cheese|CategoryVegetables|CategorySalt?,Sweet & Sour Platter
+1331,Sugar|Pork|CategorySalt?,Sweet & Sour Pork
+1332,Sugar|Pork|CategoryVegetables|CategorySalt?,Red-Cooked Pork & Veg
+1333,Sugar|Salt Pork|CategorySalt?,Candied Salt Pork
+1334,Sugar|Salt Pork|CategoryVegetables|CategorySalt?,Candied Salt Pork Stew
+1335,Sugar|Ham|CategorySalt?,Glazed Ham
+1336,Sugar|Ham|CategoryVegetables|CategorySalt?,Glazed Ham & Veg
+1337,Sugar|Agaric|CategoryVegetables?|CategorySalt?,Candied Agarics
+1338,Sugar|Morel|CategoryVegetables?|CategorySalt?,Candied Morels
+1339,Sugar|Matsutake|CategoryVegetables?|CategorySalt?,Candied Matsutake
+1340,Sugar|CategoryMushroom|CategoryVegetables?|CategorySalt?,Candied Mushrooms
+1341,Sugar|CategoryCaveSeafood|CategoryVegetables?|CategorySalt?,Sweet & Sour Cave Fish
+1342,Sugar|CategoryInsects|CategoryVegetables?|CategorySalt?,Candied Bugs
+1343,Sugar|CategoryCaveGame|CategoryVegetables?|CategorySalt?,Sweet & Sour Cave Game
+1344,Sugar|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Sweet & Sour Supreme
+1345,Honey|CategoryVegetables|Sugar?|CategorySalt?,Honey-Roasted Veg
+1346,Honey|Cheese|CategoryVegetables?|Sugar?|CategorySalt?,Honeyed Chicken Wings
+1347,Honey|Pork|Sugar?|CategorySalt?,Honey-Glazed Pork
+1348,Honey|Pork|CategoryVegetables|Sugar?|CategorySalt?,Honeyed Ham Stew
+1349,Honey|Salt Pork|Sugar?|CategorySalt?,Honeyed Salt Pork
+1350,Honey|Salt Pork|CategoryVegetables|Sugar?|CategorySalt?,Honeyed Salt Pork Pumpkin
+1351,Honey|Ham|Sugar?|CategorySalt?,Honey-Glazed Ham
+1352,Honey|Ham|CategoryVegetables|Sugar?|CategorySalt?,Honeyed Ham & Yams
+1353,Honey|Fish|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Fish
+1354,Honey|Prawn|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Prawns
+1355,Honey|Crab|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Crab
+1356,Honey|CategorySurfaceSeafood|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Seafood
+1357,Honey|Agaric|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Agarics
+1358,Honey|Morel|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Morels
+1359,Honey|Matsutake|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Matsutake
+1360,Honey|CategoryMushroom|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Mushrooms
+1361,Honey|Rabbit|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Rabbit
+1362,Honey|Quail|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Quail
+1363,Honey|Venison|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Venison
+1364,Honey|CategoryGame|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Game
+1365,Honey|CategoryCaveSeafood|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Cave Fish
+1366,Honey|CategoryInsects|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Bugs
+1367,Honey|CategoryCaveGame|CategoryVegetables?|Sugar?|CategorySalt?,Honey-Glazed Cave Game
+1368,Honey|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Honey Supreme
+1369,CategoryWine|CategoryVegetables|CategorySalt?,Infused Eggplant
+1370,CategoryWine|Cheese|CategoryVegetables?|CategorySalt?,Drunken Chicken
+1371,CategoryWine|Pork|CategoryVegetables?|CategorySalt?,Infused Pork Ribs
+1372,CategoryWine|Salt Pork|CategoryVegetables?|CategorySalt?,Infused Salt Pork
+1373,CategoryWine|Ham|CategoryVegetables?|CategorySalt?,Infused Ham
+1374,CategoryWine|Fish|CategoryVegetables?|CategorySalt?,Infused Fish
+1375,CategoryWine|Prawn|CategoryVegetables?|CategorySalt?,Infused Prawns
+1376,CategoryWine|Agaric|CategoryVegetables?|CategorySalt?,Infused Agarics
+1377,CategoryWine|Morel|CategoryVegetables?|CategorySalt?,Infused Morels
+1378,CategoryWine|Matsutake|CategoryVegetables?|CategorySalt?,Infused Matsutake
+1379,CategoryWine|CategoryMushroom|CategoryVegetables?|CategorySalt?,Infused Mushrooms
+1380,CategoryWine|Rabbit|CategoryVegetables?|CategorySalt?,Infused Rabbit
+1381,CategoryWine|Quail|CategoryVegetables?|CategorySalt?,Infused Quail
+1382,CategoryWine|Venison|CategoryVegetables?|CategorySalt?,Infused Vension
+1383,CategoryWine|CategoryGame|CategoryVegetables?|CategorySalt?,Infused Game
+1384,CategoryWine|CategoryCaveSeafood|CategoryVegetables?|CategorySalt?,Infused Cave Fish
+1385,CategoryWine|CategoryInsects|CategoryVegetables?|CategorySalt?,Infused Bugs
+1386,CategoryWine|CategoryCaveGame|CategoryVegetables?|CategorySalt?,Infused Cave Game
+1387,CategoryWine|CategoryVegetables?|CategorySurfaceSeafood|CategoryMushroom|CategoryGame,Supreme Infused Stew
+1388,CategoryFruit|Cheese|CategorySalt?,Chicken and Peaches
+1389,CategoryFruit|Pork|CategorySalt?,Pork and Apple Sauce
+1390,CategoryFruit|Salt Pork|CategorySalt?,Devils on Horseback
+1391,CategoryFruit|Ham|CategorySalt?,Ham and Melon
+1392,CategoryFruit|Fish|CategorySalt?,Fish with Lemon
+1393,Ham|Cheese|CategorySalt?,Charcuterie
+1394,CategoryEgg|CategoryVegetables|CategoryMeat|CategorySurfaceSeafood?|CategoryMushroom?|CategoryGame?|CategorySalt?,Fried Egg Platter
+1395,CategoryEgg|Salt Pork|Cheese|CategorySalt?,Salt Pork and Eggs
+1396,Water|Medicinal Herbs|CategorySweets?,Herbal Infusion
+1397,Water|Salt,Electrolyte Water
+1398,Water|Sugar,Sugar Water
+1399,Water|Honey|Sugar?,Honey Water
+1400,Water|Sugar|Salt|Honey?,Isotonic Sports Drink
+1401,Water|Spices|CategorySweets?,Mint Tea
+1402,Water|Spices|Tea|CategorySweets?,Spiced Tea
+1403,Water?|Spices|Tea|CategoryMilk|CategorySweets?,Masala Chai
+1404,Water?|Milk|CategorySweets,Sweetened Milk
+1405,Milk|Coffee|Salt|CategorySweets?,Salted Caramel Latte
+1406,Milk|Coffee|Tea|CategorySweets?,Matcha Latte
+1407,Milk|Spices|CategorySweets?,Cinnamon Milk Foam
+1408,Milk|Medicinal Herbs|CategorySweets?,Herbal Milk Foam
+1409,Beer|Coffee|Water?|CategorySweets?,Coffee Stout
+1410,Beer|CategoryMilk|Water?|CategorySweets?,Milk Stout
+1411,Beer|CategoryFruit|Water?|CategorySweets?,Pineapple Beer
+1412,Beer|Sugar|Water?|Honey?,Ginger Beer
+1413,Beer|Honey|Water?|Sugar?,Honey Beer
+1414,Liquor|Beer|Fruit Wine|Water?|CategoryMilk?|CategorySweets?,Lights Out
+1415,CategoryWine|CategoryFruit|Spices?|CategorySweets?,Dustland Sunrise
+1416,CategoryWine|CategoryMilk|CategorySweets?,Cream Cocktail
+1417,Fruit Wine|Coffee|CategoryMilk?|CategorySweets?,Fruit Wine Coffee
+1418,Fruit Wine|Coffee|CategoryMilk|Tea|CategorySweets?,Fruit Tea Latte
+1419,Coffee|Water?|CategorySweets,Sweetened Coffee
+1420,Coffee|CategoryFruit|Water?|CategorySweets?,Orange Coffee
+1421,Coffee|CategoryFruit|CategoryMilk|Water?|CategorySweets?,Coconut Latte
+1422,Coffee|CategoryVegetables|Water?|CategorySweets?,Carrot Latte
+1423,Coffee|CategoryVegetables|CategoryMilk|Water?|CategorySweets?,Pumpkin Latte
+1424,Coffee|Tea|Water?|CategorySweets?,Cofftea
+1425,Sugar|CategoryVegetables|Water|Honey?,Sweet Vegetable Juice
+1426,Sugar|CategoryFruit|Water?|Honey?,Sweetened Fruit Juice
+1427,Honey|CategoryVegetables|Water|Sugar?,Honey-Veg Juice
+1428,Honey|CategoryFruit|Water|Sugar?,Honey Fruit Juice
+1429,Coffee|Liquor|CategorySweets?,Espresso Martini
+1430,Coffee|Water,Black Coffee
+1431,Flour|CategoryMilk|Coffee|CategorySweets?,Coffee Bun
+1432,Sugar|Honey?,Candy
+1433,CategoryVegetables|CategoryEgg|Cheese|Cheese|CategorySweets?,Caesar Salad
+1434,Flour|Bread|Fish|CategoryEgg?|CategoryVegetables?|CategorySalt?,Fried Fish Sandwich
+1435,Flour|Bread|Cheese|CategoryEgg?|CategoryVegetables?|CategorySalt?,Chicken Cutlet Sandwich
+1436,Flour|Bread|Pork|CategoryEgg?|CategoryVegetables?|CategorySalt?,Pork Cutlet Sandwich
+1437,CategoryPrawn|Water|CategoryMushroom|CategoryMilk|CategorySalt?,Shrimp & Mushroom Bisque
+23120301,Scorpion|CategorySalt?,Grilled Scorpion
+23120302,Scorpion|CategoryEgg|CategoryVegetables?|CategorySalt?,Scorpion Scramble
+23120303,Scorpion|Flour|CategorySalt|CategoryVegetables?|CategoryEgg?,Scorpion Meatballs
+23120304,Millipede|CategorySalt?,Millipede Skewer
+23120305,Millipede|CategoryVegetables|CategoryEgg?|CategorySalt?,Millipede Wrap
+23120306,Millipede|Flour|CategorySalt|CategoryMeat?|CategoryGame?,Millipede Chow Mein
+23120307,Beetle|CategorySalt?,Deep-Fried Beetle
+23120308,Beetle|Bread|CategorySalt?|CategoryEgg?|CategoryVegetables?,Beetle Sandwich
+23120309,Beetle|Flour|CategorySalt|CategoryEgg?|CategoryVegetables?,Beetle Empanadas
+23120310,CategoryInsects|CategoryInsects|CategorySalt|CategoryInsects?|CategoryVegetables?,Bug Banquet

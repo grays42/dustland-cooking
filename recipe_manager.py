@@ -1,6 +1,7 @@
 import json
 import os
 import csv
+import math
 from collections import defaultdict
 from itertools import product
 from bisect import bisect_left
@@ -33,6 +34,12 @@ Instance Methods:
 - get_valid_cookjobs_from_inventory(inventory: int) -> list[int]
   Returns a list of valid cookjobs that can be crafted using only the
   provided inventory bitmask (subset match).
+
+- get_valid_cookjobs_from_inventory_and_surplus(
+    inventory: int, surplus: int, min_surplus_ratio: float = 0.5) -> list[int]
+  Returns a list of valid cookjobs that can be crafted using only the
+  provided inventory bitmask (subset match), AND at least [min_surplus_ratio] percent
+  of those ingredients must come from the surplus list.
 
 - find_isolation_pairs_for_ingredient(ingredient_bit: int, cookjobs: list[int]) -> list[tuple[int, int]]
   Given a one-hot ingredient bit and a sorted list of cookjobs, returns all
@@ -135,7 +142,6 @@ class RecipeManager:
             json.dump(master, f, indent=2)
 
         return master
-
 
     def _load_or_build_cookjob_to_recipes(self):
         cache_file = os.path.join(self.cache_dir, "cookjob_to_recipes.json")
@@ -275,7 +281,6 @@ class RecipeManager:
 
         return mapping
 
-
     def _load_or_build_valid_cookjobs(self):
         cache_file = os.path.join(self.cache_dir, "valid_cookjobs.json")
         if os.path.exists(cache_file):
@@ -345,6 +350,36 @@ class RecipeManager:
         can be made using only the available ingredients.
         """
         return [job for job in self.valid_cookjobs if job & inventory == job]
+
+    '''  DEPRECATED -- we shifted from filtering to weighting for surplus.
+        def get_valid_cookjobs_from_inventory_and_surplus(self, inventory: int, surplus: int, min_surplus_ratio: float = 0.5) -> list[int]:
+            """
+            Returns valid cookjobs that can be made from the inventory and contain
+            a minimum ratio of surplus ingredients (default 50%).
+
+            Surplus is a bitmask representing the "overflow" ingredients you'd like to burn.
+
+            A cookjob is included if at least half of its ingredients are in the surplus list.
+            """
+            valid_jobs = self.get_valid_cookjobs_from_inventory(inventory)
+
+            # Precompute thresholds for ingredient counts 1–5
+            thresholds = {n: math.ceil(n * min_surplus_ratio) for n in range(1, 6)}
+            filtered = []
+
+            for job in valid_jobs:
+                ingredients = IngredientCoder.int_to_cookjob_tuple(job)
+                total = len(ingredients)
+                surplus_count = sum(
+                    1 for ing in ingredients
+                    if IngredientCoder.ingredient_to_bit(ing) & surplus
+                )
+
+                if surplus_count >= thresholds[total]:
+                    filtered.append(job)
+
+            return filtered
+    '''
 
     def find_isolation_pairs_for_ingredient(self, ingredient_bit: int, cookjobs: list[int]) -> list[tuple[int, int]]:
         """

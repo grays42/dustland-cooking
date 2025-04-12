@@ -166,29 +166,34 @@ class ReportDefinition:
             if not isinstance(val, (int, float)) or not (min_val <= val <= max_val):
                 errors.append(f"{name} must be between {min_val} and {max_val}.")
 
-        if self.config.get("inventory_only") not in [True, False]:
+        if self.inventory_only not in [True, False]:
             errors.append("inventory_only must be True or False.")
 
-        for key in ["hunger_weight", "stress_weight", "sell_weight"]:
-            in_range(self.config.get(key, 0), key, 0, 100)
+        for attr_name in ["hunger_weight", "stress_weight", "sell_weight"]:
+            val = getattr(self, attr_name)
+            in_range(val, attr_name, 0, 1)
 
-        if self.config.get("cost_evaluation_mode") not in ("none", "subtract", "ratio"):
+        if self.surplus_modifier is not None:
+            if not isinstance(self.surplus_modifier, (int, float)) or self.surplus_modifier < 0:
+                errors.append("surplus_modifier must be a non-negative number.")
+
+        if self.cost_evaluation_mode not in ("none", "subtract", "ratio"):
             errors.append("cost_evaluation_mode must be one of: none, subtract, ratio.")
 
-        if self.config.get("ingredient_source_mode") not in (None, "cheapest_producing", "buyout_producing", "buyout_producing_and_normal"):
+        if self.ingredient_source_mode not in (None, "cheapest_producing", "buyout_producing", "buyout_producing_and_normal"):
             errors.append("ingredient_source_mode must be one of: cheapest_producing, buyout_producing, buyout_producing_and_normal, or None.")
 
-        if self.config.get("production_mode") not in ("individual", "bulk"):
+        if self.production_mode not in ("individual", "bulk"):
             errors.append("production_mode must be either 'individual' or 'bulk'.")
 
-
-        if not self.config.get("name"):
+        if not self.name:
             errors.append("Report must have a name.")
 
         self.validation_errors = errors
         if errors:
             raise ValueError("Report definition validation failed:\n- " + "\n- ".join(errors))
-            
+
+
     def describe_attributes(self) -> list[str]:
         """
         Returns a human-readable list of report attribute descriptions,
@@ -201,11 +206,11 @@ class ReportDefinition:
         else:
             desc.append("All ingredients")
 
-        if self.hunger_weight > 0:
+        if (self.hunger_weight or 0) > 0:
             desc.append(f"Hunger {int(self.hunger_weight * 100)}%")
-        if self.stress_weight > 0:
+        if (self.stress_weight or 0) > 0:
             desc.append(f"Stress {int(self.stress_weight * 100)}%")
-        if self.sell_weight > 0:
+        if (self.sell_weight or 0) > 0:
             desc.append(f"Sell Value {int(self.sell_weight * 100)}%")
 
         if self.cost_evaluation_mode == "subtract":
@@ -230,6 +235,7 @@ class ReportDefinition:
         desc.append(mode_desc.get(self.production_mode, "Unknown scoring mode"))
 
         return desc
+
 
 
     @classmethod
@@ -346,11 +352,10 @@ class ReportDefinition:
         print("\nHere’s a summary of your report settings:")
         for line in temp.describe_attributes():
             print(f"- {line}")
-
+            
         # Final: name
         while True:
-            name = input("\nWhat do you want to name this report? (e.g. 'Road Food from Inventory')\n"
-                "> ").strip()
+            name = input("\nWhat do you want to name this report? (e.g. 'Road Food from Inventory')\n> ").strip()
             if name:
                 config["name"] = name
                 break
@@ -358,9 +363,11 @@ class ReportDefinition:
                 return None
             print("Report name cannot be blank. Or enter 'c' to cancel.")
 
-        self.config = config
-        self.validate()
-        return self
+        # Return fully initialized and validated report
+        report = cls(config=config)
+        report.validate()
+        return report
+
 
 def main():
     try:

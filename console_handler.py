@@ -239,6 +239,7 @@ class ConsoleHandler:
                 continue
             try:
                 report_def = ReportDefinition(config=config)
+                #print(self.surplus_bitmask)
                 df = self.reporter.build_report(report_def, self.inventory_bitmask, self.surplus_bitmask, cooking_skill)
                 print(f"\n=== {config['name']} ===")
                 print(df.head(10).to_string(index=False))

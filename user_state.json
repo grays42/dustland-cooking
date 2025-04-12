@@ -31,7 +31,12 @@
     "Water"
   ],
   "surplus": [
-    "Dried Vegetables"
+    "Bread",
+    "Fruit",
+    "Milk",
+    "Rations",
+    "Sugar",
+    "Tea"
   ],
   "settings": {},
   "selected_reports": [
@@ -40,5 +45,17 @@
     "best_road_food_inventory",
     "best_profit_food_inventory"
   ],
-  "custom_reports": {}
+  "custom_reports": {
+    "custom:absolute_max_profit": {
+      "name": "Absolute Max Profit",
+      "inventory_only": false,
+      "hunger_weight": 0.0,
+      "stress_weight": 0.0,
+      "sell_weight": 1.0,
+      "surplus_modifier": 0.0,
+      "cost_evaluation_mode": "subtract",
+      "ingredient_source_mode": "buyout_producing",
+      "production_mode": "individual"
+    }
+  }
 }
